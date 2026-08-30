@@ -16,7 +16,7 @@ The official catalog remains enabled. Every additional catalog is required and m
 
 ## Updating the catalog
 
-Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available.
+Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available. A scene plugin declares required platform plugins with a `requires` array of catalog repository URLs. The market resolves those entries before the scene and prevents removal while an installed scene still depends on them.
 
 ## License
 

@@ -1,13 +1,30 @@
 {
-  "updated": "2026-08-29",
-  "count": 1,
+  "updated": "2026-08-30",
+  "count": 2,
   "categories": {
+    "platform": {
+      "en": "Platform Capabilities",
+      "zh": "平台基础能力"
+    },
     "workflow": {
       "en": "Workflows & Automation",
       "zh": "工作流与自动化"
     }
   },
   "plugins": [
+    {
+      "name": "aiko-dsh-ontology-kernel",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel",
+      "category": "platform",
+      "description": {
+        "en": "Shared ontology runtime, durable graph storage, typed remotes, Functions, and Actions for Aiko business workbenches.",
+        "zh": "面向 Aiko 业务工作台的共享本体运行时，提供持久化图数据、类型化远程 API、Function 与 Action。"
+      },
+      "tarball": "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel/releases/download/v0.1.2/aiko-dsh-ontology-kernel-0.1.2.tgz",
+      "install": "github:aiko-dsh-plugins/dsh-ontology-kernel",
+      "added": "2026-08-30"
+    },
     {
       "name": "aiko-dsh-bid-studio",
       "owner": "aiko-dsh-plugins",
@@ -17,8 +34,11 @@
         "en": "Bid workbench with tender ontology definitions, local workflow execution, review gates, and document export.",
         "zh": "标书工作台，提供投标本体定义、本地流程执行、人工审核关卡与文档导出。"
       },
-      "tarball": "https://github.com/aiko-dsh-plugins/dsh-bid-studio/releases/download/v0.1.3/aiko-dsh-bid-studio-0.1.3.tgz",
+      "tarball": "https://github.com/aiko-dsh-plugins/dsh-bid-studio/releases/download/v0.2.0/aiko-dsh-bid-studio-0.2.0.tgz",
       "install": "github:aiko-dsh-plugins/dsh-bid-studio",
+      "requires": [
+        "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel"
+      ],
       "added": "2026-08-29"
     }
   ]
