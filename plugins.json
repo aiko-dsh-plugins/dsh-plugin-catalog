@@ -1,7 +1,11 @@
 {
-  "updated": "2026-09-10",
-  "count": 2,
+  "updated": "2026-09-11",
+  "count": 3,
   "categories": {
+    "market": {
+      "en": "Plugin Markets & Managers",
+      "zh": "插件市场与管理"
+    },
     "platform": {
       "en": "Platform Capabilities",
       "zh": "平台基础能力"
@@ -13,7 +17,23 @@
   },
   "plugins": [
     {
+      "name": "dsh-market (Aiko)",
+      "npm": "dshmarket",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-market",
+      "category": "market",
+      "description": {
+        "en": "Aiko plugin market for official DSH Electron: community and organization catalogs, plugin details, and source-preserving package updates.",
+        "zh": "面向官方 DSH Electron 的 Aiko 插件市场，提供社区与组织目录、插件详情，以及保留发布来源的插件更新。"
+      },
+      "version": "1.37.0-aiko.2",
+      "tarball": "https://github.com/aiko-dsh-plugins/dsh-market/releases/download/v1.37.0-aiko.2/dshmarket-1.37.0-aiko.2.tgz",
+      "install": "github:aiko-dsh-plugins/dsh-market",
+      "added": "2026-09-11"
+    },
+    {
       "name": "aiko-dsh-ontology-kernel",
+      "version": "0.1.2",
       "owner": "aiko-dsh-plugins",
       "url": "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel",
       "category": "platform",
@@ -27,6 +47,7 @@
     },
     {
       "name": "aiko-dsh-bid-studio",
+      "version": "0.2.1",
       "owner": "aiko-dsh-plugins",
       "url": "https://github.com/aiko-dsh-plugins/dsh-bid-studio",
       "category": "workflow",
