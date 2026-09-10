@@ -16,7 +16,9 @@ The official catalog remains enabled. Every additional catalog is required and m
 
 ## Updating the catalog
 
-Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available. A scene plugin declares required platform plugins with a `requires` array of catalog repository URLs. The market resolves those entries before the scene and prevents removal while an installed scene still depends on them.
+Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available.
+
+Publish every referenced release asset before updating the live catalog. Bid Studio 0.2.1 requires Ontology Kernel 0.1.2 and the DSH 0.1.5-alpha.2 client APIs; the desktop installation path additionally requires Aiko dsh-market 1.37.0-aiko.0 and its desktop bridge v1. Keep the Kernel repository in the scene plugin's `requires` list so the market installs it first.
 
 ## License
 
