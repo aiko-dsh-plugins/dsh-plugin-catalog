@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-11",
-  "count": 3,
+  "count": 4,
   "categories": {
     "market": {
       "en": "Plugin Markets & Managers",
@@ -10,12 +10,31 @@
       "en": "Platform Capabilities",
       "zh": "平台基础能力"
     },
+    "office": {
+      "en": "Office & Documents",
+      "zh": "办公与文档"
+    },
     "workflow": {
       "en": "Workflows & Automation",
       "zh": "工作流与自动化"
     }
   },
   "plugins": [
+    {
+      "name": "Aiko Office",
+      "npm": "aiko-dsh-office",
+      "version": "0.1.0",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-office",
+      "category": "office",
+      "description": {
+        "en": "Local Word, Excel, PowerPoint and PDF tools for the DSH agent. Windows x64 includes Python and document libraries; no Claude key required. Excel formulas are written but not recalculated.",
+        "zh": "由 DSH Agent 调用的本地 Word、Excel、PowerPoint 和 PDF 工具。Windows x64 自带 Python 和文档库，无需 Claude Key。支持写入 Excel 公式，不执行公式重算。"
+      },
+      "tarball": "https://github.com/aiko-dsh-plugins/dsh-office/releases/download/v0.1.0/aiko-dsh-office-0.1.0.tgz",
+      "install": "github:aiko-dsh-plugins/dsh-office",
+      "added": "2026-09-11"
+    },
     {
       "name": "dsh-market (Aiko)",
       "npm": "dshmarket",
