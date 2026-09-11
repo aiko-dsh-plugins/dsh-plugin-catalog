@@ -1,0 +1,469 @@
+{
+  "updated": "2026-09-11T17:36:47.196Z",
+  "count": 27,
+  "categories": {
+    "github-discovery": {
+      "en": "GitHub community",
+      "zh": "GitHub 社区"
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-model-sync",
+      "owner": "chen1pengvincent",
+      "url": "https://github.com/chen1pengvincent/dsh-model-sync-plugin",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 模型插件：监控各服务商上游 /models，列出新增模型并勾选添加（检查只读、显式应用、不自动删除）。Monitor provider model catalogs and add newly released models to DeepSeek Harness."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "@crosery/dsh-drop",
+      "owner": "Crosery",
+      "url": "https://github.com/Crosery/dsh-drop",
+      "category": "github-discovery",
+      "description": {
+        "en": "Drag and paste files into dsh Web with a unified preview rail; keep native images and add file references only when sending."
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add @crosery/dsh-drop@https://github.com/Crosery/dsh-drop/releases/download/v0.1.3/dsh-drop.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "tarball": "https://github.com/Crosery/dsh-drop/releases/download/v0.1.3/dsh-drop.tgz",
+      "version": "0.1.3"
+    },
+    {
+      "name": "dsh-voice-talk",
+      "owner": "duoduoqian708",
+      "url": "https://github.com/duoduoqian708/dsh-voice-talk",
+      "category": "github-discovery",
+      "description": {
+        "en": "Voice conversation mode for the DeepSeek Harness Web GUI: mic input with auto-submit, streaming spoken readout of replies, and a hands-free multi-turn loop with barge-in."
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-voice-talk@0.2.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-voice-talk",
+      "version": "0.2.0"
+    },
+    {
+      "name": "dsh-odoo-sdd",
+      "owner": "fhidalgodev",
+      "url": "https://github.com/fhidalgodev/dsh-odoo-sdd",
+      "category": "github-discovery",
+      "description": {
+        "en": "Spec-Driven Development pipeline for Odoo as a DeepSeek Harness plugin: connects to an existing Odoo instance (JSON-RPC), orchestrates the 5-phase SDD workflow, and enforces fail-closed safety gates."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "@firetruck666/dsh-task-board",
+      "owner": "FiretrUCK666",
+      "url": "https://github.com/FiretrUCK666/dsh-task-board",
+      "category": "github-discovery",
+      "description": {
+        "en": "Task board plugin for the DSH web GUI: a sidebar entry plus a multi-column kanban view with real execution through DSH sessions, schedules, session rules and auto-cruise automation. Board truth lives on the host and syncs to every device over SSE (the browser is an offline-first copy). Standalone plugin, no DSH source changes."
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add @firetruck666/dsh-task-board@0.2.101",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "@firetruck666/dsh-task-board",
+      "version": "0.2.101"
+    },
+    {
+      "name": "dsh-research-kit",
+      "owner": "fsrmqi",
+      "url": "https://github.com/fsrmqi/dsh-research-kit",
+      "category": "github-discovery",
+      "description": {
+        "en": "面向 DeepSeek Harness 的科研 Agent 工作台：317 条工作流、86 个技能条目、122 个科学数据源，支持公开 API 直查与 DSH Agent/MCP 查询回退。"
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-update-plugin",
+      "owner": "haotian-lu-prog",
+      "url": "https://github.com/haotian-lu-prog/dsh-update-all/tree/main/plugin",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH Web plugin: check and update DeepSeek Harness CLI and all profile plugins from Settings → General."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-update-plugin@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-update-plugin",
+      "version": "0.1.0"
+    },
+    {
+      "name": "dsh-fork-edit",
+      "owner": "homily707",
+      "url": "https://github.com/homily707/dsh-fork-edit",
+      "category": "github-discovery",
+      "description": {
+        "en": "Turn-level conversation editing and retry via clean session forks: forks at the closed-turn boundary before the target turn, then replays edited text (or the original input) as a normal user turn — zero custom events, cold-load safe"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:34:40.257Z"
+      }
+    },
+    {
+      "name": "dsh-artifact-index",
+      "owner": "Huuuuung",
+      "url": "https://github.com/Huuuuung/dsh-artifact-index",
+      "category": "github-discovery",
+      "description": {
+        "en": "Artifact index endpoint for the DeepSeek Harness web GUI: serves the JSON index contract and the file bytes that the dsh-artifacts sidebar tab reads."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-artifact-index@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-artifact-index",
+      "version": "0.1.0"
+    },
+    {
+      "name": "@leolee9086/dsh-sketchup",
+      "owner": "leolee9086",
+      "url": "https://github.com/leolee9086/dsh-sketchup",
+      "category": "github-discovery",
+      "description": {
+        "en": "Local DeepSeek Harness integration for SketchUp 2024"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-native-browser",
+      "owner": "longmiaoo",
+      "url": "https://github.com/longmiaoo/dsh-native-browser",
+      "category": "github-discovery",
+      "description": {
+        "en": "Chrome-first native browser runtime for DeepSeek Harness with semantic observation, reliable CDP actions, and human-agent handoff"
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-hmos-emulator",
+      "owner": "momo20012002",
+      "url": "https://github.com/momo20012002/dsh-hmos-emulator",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH better-sidebar 标签页插件:一键启动鸿蒙模拟器,将选定的 HarmonyOS 应用工程构建并部署到模拟器。"
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-hmos-emulator@0.1.3",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-hmos-emulator",
+      "version": "0.1.3"
+    },
+    {
+      "name": "@openplan/dsh-plugin",
+      "owner": "openplancc",
+      "url": "https://github.com/openplancc/dsh-plugin",
+      "category": "github-discovery",
+      "description": {
+        "en": "Cost policy for the DeepSeek Harness: per-call metering plus a local fuse that enforces budget, model and reasoning-effort limits before any token is spent."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-notify",
+      "owner": "printz1",
+      "url": "https://github.com/printz1/dsh-notify",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH Web 桌面通知：需要审批 / 模型提问 / 一轮指令结束 / 后台任务结束 / 出错时弹出系统通知。"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-reqsys",
+      "owner": "Ringo-P-GIT",
+      "url": "https://github.com/Ringo-P-GIT/dsh-reqsys",
+      "category": "github-discovery",
+      "description": {
+        "en": "需求管理系统（行迹 & 未竟）：从 dsh-pet 剥离的独立插件。双击宠物/桥接事件唤醒，数据存 ~/.dsh/requirements/。"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-preset-md",
+      "owner": "s867968286",
+      "url": "https://github.com/s867968286/dsh-preset-md",
+      "category": "github-discovery",
+      "description": {
+        "en": "给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆。Give your DSH assistant a soul, personality, and long-term memory."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:34:40.257Z"
+      }
+    },
+    {
+      "name": "dsh-editor",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-editor",
+      "category": "github-discovery",
+      "description": {
+        "en": "Editor: a CodeMirror 6 text/code editor tab type for the dsh-vn-plugins right bar (dsh-rightbar). Opens text files editable instead of in the read-only preview - Markdown included, with a Preview/Edit toggle between the editor and the rendered view - starts a blank document from the tab strip's + control, names and creates new files through the shared dsh-modal dialog, and saves through an authenticated plugin route. The editor follows the app's light/dark theme. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-modal",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-modal",
+      "category": "github-discovery",
+      "description": {
+        "en": "Modal: the pack's shared dialog surface for the dsh-vn-plugins Web GUI. A body-level overlay any client plugin reaches through ctx.get('modals') - open/alert/confirm/prompt, with async submit work that keeps the dialog open and shows the failure inline. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-open-in-app",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-open-in-app",
+      "category": "github-discovery",
+      "description": {
+        "en": "Open In: the pack's own cross-platform file-browser launcher for the dsh-vn-plugins Web GUI. Forks the shipped @deepseek-ai/dsh-client-ui-open-in-app browser bundle so the File Explorer / Finder / Files menu entries post to a route this package owns, which opens the OS's file browser directly (explorer.exe, open, xdg-open, WSL-aware) instead of the shell's open verb. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-rightbar",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-rightbar",
+      "category": "github-discovery",
+      "description": {
+        "en": "Right bar: dsh-vn-plugins' own right Sidebar for the DeepSeek Harness web GUI - the tab strip, the docking panel, the expand control, the tab-type registry (sidebarRightTabs/sidebarRight), the keyed tab seats and the Start/guide page. Vendored from the shipped @deepseek-ai/dsh-client-ui-sidebar-right bundle so the pack owns the code; the bundle layer disables the core row. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-rightbar-files",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-rightbar-files",
+      "category": "github-discovery",
+      "description": {
+        "en": "Right bar Files tab: dsh-vn-plugins' own workspace file tree for the right bar. Vendored from the shipped @deepseek-ai/dsh-client-ui-sidebar-files bundle (a tab type registering into dsh-rightbar's sidebarRightTabs registry); the dsh-rightbar layer disables the core row. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-themes",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-themes",
+      "category": "github-discovery",
+      "description": {
+        "en": "Themes: a small control in the dsh-vn-plugins Web GUI's conversation header that switches the app between the light, dark and system appearance - the same preference Settings > General > Appearance owns - and shows which one is active. Also carries the pack's appearance overrides, starting with the always-light paper the rendered Markdown view is drawn on. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-vn-master",
+      "owner": "vecnode",
+      "url": "https://github.com/vecnode/dsh-vn-plugins/tree/main/packages/dsh-vn-master",
+      "category": "github-discovery",
+      "description": {
+        "en": "Master: the pack's deliberately BLANK base bundle for the DeepSeek Harness web GUI - one no-op 'master' host row and the bundle layer, installed last so it is the pack's final word on any row. It ships no browser half, provides no service and declares no inject edge, so the right bar's tab-type chain stays exactly where it is. Alpha."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-mdvault",
+      "owner": "yangzqq",
+      "url": "https://github.com/yangzqq/dsh-mdvault",
+      "category": "github-discovery",
+      "description": {
+        "en": "Workspace document vault for the dsh web GUI: a conversation '文档' tab with an all-type file tree (Markdown/PDF/HTML/code/Excel·CSV/images), full GFM rendering via the platform MarkdownText (tables, task lists, footnotes, KaTeX math, highlighted code fences), Mermaid diagrams, Obsidian-style [[wikilinks]], PDF blob preview, image zoom/pan, native SheetJS spreadsheets, and in-page editing with find/replace. Optional dsh-better-sidebar viewer integration."
+      },
+      "stars": 1,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-mdvault@1.2.4",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-mdvault",
+      "version": "1.2.4"
+    },
+    {
+      "name": "dsh-better-input",
+      "owner": "youli42",
+      "url": "https://github.com/youli42/dsh_BetterInput",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH Web 插件：在模型选择器左侧加一个「AI 优化输入」按钮，按可自定义提示词优化输入框内容，并支持撤销。"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      }
+    },
+    {
+      "name": "dsh-skills-mcp-cli-manager",
+      "owner": "YpipaQ",
+      "url": "https://github.com/YpipaQ/dsh-skills-mcp-cli-manager",
+      "category": "github-discovery",
+      "description": {
+        "en": "Skills, MCP & CLI manager for the dsh web GUI: browse/enable/import/delete skills across project and user roots; manage MCP servers with a REAL connection through @deepseek-ai/dsh-mcp-client (enabled servers connect and register their tools on ctx.tools; enable/disable actually connects/disconnects); and discover/diagnose local CLI tools (skill-embedded run-cli wrappers plus a ~/.dsh/S-M-C/cli.json registry, reporting install/version/update/subcommands/API-key state). Hot-pluggable — mounted via a profile bundle patch + node_modules package, no dsh source changes. Requires DeepSeek Harness >= 0.1.2-alpha.2 (tested on 0.1.5-rc.2)."
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-skills-mcp-cli-manager@0.6.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "npm": "dsh-skills-mcp-cli-manager",
+      "version": "0.6.0"
+    },
+    {
+      "name": "dsh-studio-panel",
+      "owner": "zkl22492-star",
+      "url": "https://github.com/zkl22492-star/Toolfolk-for-DSH",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 3D AI 工作室：把插件与模型的调用过程可视化成 3D 办公室（六固定岗位 + 思维流气泡 + 交付纸）"
+      },
+      "stars": 0,
+      "added": "2026-09-11",
+      "install": "dsh plugin --profile web add dsh-studio-panel@https://github.com/zkl22492-star/Toolfolk-for-DSH/releases/download/v0.1.0/dsh-studio-panel-0.1.0.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-11T17:36:11.460Z"
+      },
+      "tarball": "https://github.com/zkl22492-star/Toolfolk-for-DSH/releases/download/v0.1.0/dsh-studio-panel-0.1.0.tgz",
+      "version": "0.1.0"
+    }
+  ],
+  "discovery": {
+    "version": 1,
+    "topic": "dsh-plugin",
+    "total": 1368,
+    "checked": 21,
+    "complete": false
+  }
+}

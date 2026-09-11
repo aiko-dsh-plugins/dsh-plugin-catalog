@@ -14,7 +14,19 @@ Organization-curated plugins for Aiko DeepSeek Harness deployments. The catalog 
 
 The official catalog remains enabled. Every additional catalog is required and merged by repository URL; an unavailable catalog is reported instead of silently hiding its plugins.
 
-## Updating the catalog
+## GitHub community discovery
+
+`github-topic.json` is an optional discovery feed for Aiko dsh-market, separate from the curated `plugins.json`. Enable its public raw URL under `discoveryRegistryUrls`. Publish this feed before releasing a market Bundle that references it. GitHub Topic membership is community metadata, not DeepSeek certification.
+
+Run `npm ci --ignore-scripts`, then `npm test` and `npm run discover`. The collector reads `GITHUB_TOKEN` only for GitHub API requests; the token is never written to the feed or sent to npm. Public reads also work without authentication with a slower search cadence. It supports `--search-requests`, `--check-repositories`, `--recheck-hours`, `--state` and `--output`. Defaults are 20 search requests, 60 repository inspections and a seven-day recheck interval per run.
+
+Collection partitions searches by repository creation time to avoid GitHub's 1,000-result ceiling, persists pagination in `.discovery-cache/state.json`, and removes disappeared repositories only after a completed scan. Search results change during collection, so scans are not atomic snapshots. A failed search preserves the last published file. Inspection failures remain retryable and contribute no stale installation targets. Previously attempted repositories rotate behind unattempted ones. Counts describe repositories collected so far; partial scans are explicitly marked incomplete.
+
+The collector checks root packages and monorepo package manifests, excluding dependency/vendor/test/example trees. Oversized or truncated trees remain unverified. It reads actual npm or same-repository Release archives in memory, checks package identity, Bundle patch and runtime entry presence, and verifies npm provenance and SHA-512. No archive files are extracted or executed. A checked archive is not a security review, transitive dependency check or runtime compatibility test. Source-only bundles are published without an install target.
+
+The GitHub Actions workflow runs every four hours and on manual dispatch. It tests the collector, restores resumable state, updates only `github-topic.json`, and uses a normal push to `main`; remote movement fails the push instead of overwriting commits. The workflow needs repository Actions enabled and permission for `GITHUB_TOKEN` to write contents. Source changes are not live until pushed. Local cache files are ignored and must not be published.
+
+## Curated entries
 
 Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available.
 
