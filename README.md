@@ -1,15 +1,15 @@
 # Aiko DSH Plugin Catalog
 
-Organization-curated plugins for Aiko DeepSeek Harness deployments. The catalog follows the `plugins.json` format consumed by `dshmarket`.
+Organization-curated plugins for Aiko DeepSeek Harness deployments. Both feeds follow the registry format consumed by Aiko dsh-market: `plugins-npm.json` selects public npm packages, while `plugins.json` preserves legacy GitHub installations.
 
 ## Use with Aiko dsh-market
 
 ```yaml
 - id: dsh-market
-  name: dshmarket
+  name: aiko-dsh-market
   config:
     additionalRegistryUrls:
-      - https://raw.githubusercontent.com/aiko-dsh-plugins/dsh-plugin-catalog/main/plugins.json
+      - https://raw.githubusercontent.com/aiko-dsh-plugins/dsh-plugin-catalog/main/plugins-npm.json
 ```
 
 The official catalog remains enabled. Every additional catalog is required and merged by repository URL; an unavailable catalog is reported instead of silently hiding its plugins.
@@ -28,15 +28,15 @@ The GitHub Actions workflow runs every four hours and on manual dispatch. It tes
 
 ## Curated entries
 
-Edit `plugins.json`, keep `count` equal to the number of plugin entries, and use immutable GitHub Release assets for `tarball` whenever available.
+Edit `plugins-npm.json`, keep `count` equal to the number of plugin entries, and select an exact published npm package and version. Omit `tarball` for npm entries. Preserve `plugins.json` and its immutable GitHub Release URLs for older markets.
 
-Each released entry declares its package `version`. The Aiko market is listed separately as `dsh-market (Aiko)` with npm identity `dshmarket` and its Aiko GitHub release artifact. Keep this repository URL and distribution source stable across updates. Desktop market 1.37.0-aiko.2 compares versions only within the installed source and refuses replacements from another repository or from npm. Publish the new market asset before advancing its catalog entry.
+Each released entry declares its package `version`. The npm market identity is `aiko-dsh-market`; the legacy feed uses `dshmarket` with an Aiko GitHub release artifact. Desktop compares versions only within the installed source. Existing profiles retain their package sources and require an explicit reinstall through the native plugin manager to migrate to npm. Remove `dshmarket` before installing `aiko-dsh-market`, because both packages contribute the same configuration row.
 
-Publish every referenced release asset before updating the live catalog. Bid Studio 0.2.1 requires Ontology Kernel 0.1.2 and the DSH 0.1.5-alpha.2 client APIs; the desktop installation path additionally requires Aiko dsh-market 1.37.0-aiko.0 and its desktop bridge v1. Keep the Kernel repository in the scene plugin's `requires` list so the market installs it first.
+Publish and anonymously verify every referenced npm version before updating the live npm catalog. Bid Studio 0.2.2 requires Ontology Kernel 0.1.3 and the DSH 0.1.5-alpha.2 client APIs; the desktop installation path additionally requires Aiko's desktop bridge v1. Keep the Kernel repository in the scene plugin's `requires` list so the market installs it first.
 
 ## Private source and public distribution
 
-Active development uses independent private repositories. Existing public repositories preserve previously published source and remain the download locations for release assets. The catalog and all current tarball URLs stay public and unchanged, so installed clients do not need GitHub credentials or a source migration.
+Active development uses independent private repositories. npm distributes new plugin versions; GitHub Releases distributes Mac application ZIPs. Existing public repositories preserve previously published source and release downloads. The legacy catalog and its tarball URLs stay public and unchanged, so installed clients do not need GitHub credentials or a source migration.
 
 | Component | Private development repository | Public release repository |
 |---|---|---|
@@ -46,11 +46,11 @@ Active development uses independent private repositories. Existing public reposi
 | Bid Studio | `aiko-dsh-plugins/dsh-bid-studio-source` | `aiko-dsh-plugins/dsh-bid-studio` |
 | Ontology Kernel | `aiko-dsh-plugins/dsh-ontology-kernel-source` | `aiko-dsh-plugins/dsh-ontology-kernel` |
 
-Local development checkouts push to their `source` remote by default. Commit implementation changes and version tags only in the private repository. Public repositories receive release assets and user documentation, not private source commits. Their automatically generated Git source archives represent the public history; use the attached `.tgz` files for new plugin versions.
+Local development checkouts push to their `source` remote by default. Commit implementation changes and version tags only in the private repository. Public repositories retain user documentation and historical releases; their automatically generated Git source archives represent public history. Install new plugin versions from npm.
 
-Build and test in the private checkout, then publish a new immutable version through an authenticated maintainer's `gh` CLI with an explicit `--repo aiko-dsh-plugins/<public-release-repository>`. Do not upload a rebuilt package over an existing version. Update `plugins.json` only after the new public assets are downloadable without authentication. The npm `repository` fields remain public distribution identities because Desktop update checks match installed packages to those sources.
+Build and test in the private checkout, inspect the package contents, then publish the checked `.tgz` with `npm publish <artifact.tgz> --access public --tag latest --registry=https://registry.npmjs.org/`. Every release uses a new version. Update `plugins-npm.json` only after public npm metadata, integrity and anonymous installation are verified. The npm `repository` fields retain public distribution identities for repository links and discovery verification.
 
-Private Actions artifacts are not public downloads. The client's `Aiko Mac test client` workflow, the market's `Aiko market package` workflow and Office build workflows produce artifacts for maintainers to download and publish to the corresponding public release repository. [Client downloads](https://github.com/aiko-dsh-plugins/deepseek-harness/releases) include the Apple Silicon and Intel Mac test packages; the older Office-hosted URLs remain valid. Client builds use the selected private client commit and publicly released Office fixtures to verify the installed plugin. This process needs no GitHub token in the desktop application. Upstream market npm publishing and site deployment apply only in the upstream repository.
+Private Actions artifacts are not public downloads. The market's `Aiko market package` workflow and Office's platform workflow produce checked npm artifacts for maintainers. The client's `Aiko Mac test client` workflow produces Apple Silicon and Intel Mac ZIPs for [public client downloads](https://github.com/aiko-dsh-plugins/deepseek-harness/releases). Fresh clients preinstall the npm market and leave Office optional. Existing download URLs remain valid. This process needs no GitHub token in the desktop application. Upstream market npm publishing and site deployment apply only in the upstream repository.
 
 Previously published code and packages remain public. New plugin packages omit optional TypeScript source trees and browser source maps; executable JavaScript and Office's required Python scripts are still distributed and can be inspected. Private repository visibility controls development access, not access to code required to run a public plugin.
 

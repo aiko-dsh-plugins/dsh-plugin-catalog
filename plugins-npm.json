@@ -1,0 +1,83 @@
+{
+  "updated": "2026-09-12",
+  "count": 4,
+  "categories": {
+    "market": {
+      "en": "Plugin Markets & Managers",
+      "zh": "插件市场与管理"
+    },
+    "platform": {
+      "en": "Platform Capabilities",
+      "zh": "平台基础能力"
+    },
+    "office": {
+      "en": "Office & Documents",
+      "zh": "办公与文档"
+    },
+    "workflow": {
+      "en": "Workflows & Automation",
+      "zh": "工作流与自动化"
+    }
+  },
+  "plugins": [
+    {
+      "name": "Aiko Office",
+      "npm": "aiko-dsh-office",
+      "version": "0.2.1",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-office",
+      "category": "office",
+      "description": {
+        "en": "Local Word, Excel, PowerPoint and PDF tools for the DSH agent, with offline sidebar previews for DOCX, XLSX and PPTX. Windows x64, Apple Silicon and Intel Mac include Python and document libraries; no Claude key required. Excel formulas are not recalculated.",
+        "zh": "由 DSH Agent 调用的本地 Word、Excel、PowerPoint 和 PDF 工具，支持 DOCX、XLSX、PPTX 离线侧栏预览。Windows x64、Apple Silicon 和 Intel Mac 自带 Python 与文档库，无需 Claude Key；Excel 公式不执行重算。"
+      },
+      "install": "dsh plugin --profile web add aiko-dsh-office@0.2.1",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "dsh-market (Aiko)",
+      "npm": "aiko-dsh-market",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-market",
+      "category": "market",
+      "description": {
+        "en": "Aiko plugin market for DSH Electron: curated and organization catalogs, optional GitHub community discovery, plugin details, and source-preserving updates.",
+        "zh": "面向 Aiko DSH Electron 的插件市场，整合精选与组织目录、可选 GitHub 社区发现、插件详情，以及保留发布来源的更新。"
+      },
+      "version": "1.37.1",
+      "install": "dsh plugin --profile web add aiko-dsh-market@1.37.1",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "aiko-dsh-ontology-kernel",
+      "version": "0.1.3",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel",
+      "category": "platform",
+      "description": {
+        "en": "Shared ontology runtime, durable graph storage, typed remotes, Functions, and Actions for Aiko business workbenches.",
+        "zh": "面向 Aiko 业务工作台的共享本体运行时，提供持久化图数据、类型化远程 API、Function 与 Action。"
+      },
+      "install": "dsh plugin --profile web add aiko-dsh-ontology-kernel@0.1.3",
+      "added": "2026-08-30",
+      "npm": "aiko-dsh-ontology-kernel"
+    },
+    {
+      "name": "aiko-dsh-bid-studio",
+      "version": "0.2.2",
+      "owner": "aiko-dsh-plugins",
+      "url": "https://github.com/aiko-dsh-plugins/dsh-bid-studio",
+      "category": "workflow",
+      "description": {
+        "en": "Bid workbench with tender ontology definitions, local workflow execution, review gates, and document export.",
+        "zh": "标书工作台，提供投标本体定义、本地流程执行、人工审核关卡与文档导出。"
+      },
+      "install": "dsh plugin --profile web add aiko-dsh-bid-studio@0.2.2",
+      "requires": [
+        "https://github.com/aiko-dsh-plugins/dsh-ontology-kernel"
+      ],
+      "added": "2026-08-29",
+      "npm": "aiko-dsh-bid-studio"
+    }
+  ]
+}
