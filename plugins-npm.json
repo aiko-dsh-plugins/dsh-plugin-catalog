@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "count": 4,
   "categories": {
     "market": {
@@ -23,15 +23,15 @@
     {
       "name": "Aiko Office",
       "npm": "aiko-dsh-office",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "owner": "aiko-dsh-plugins",
       "url": "https://github.com/aiko-dsh-plugins/dsh-office",
       "category": "office",
       "description": {
-        "en": "Local Word, Excel, PowerPoint and PDF tools for the DSH agent, with offline sidebar previews for DOCX, XLSX and PPTX. Windows x64, Apple Silicon and Intel Mac include Python and document libraries; no Claude key required. Excel formulas are not recalculated.",
-        "zh": "由 DSH Agent 调用的本地 Word、Excel、PowerPoint 和 PDF 工具，支持 DOCX、XLSX、PPTX 离线侧栏预览。Windows x64、Apple Silicon 和 Intel Mac 自带 Python 与文档库，无需 Claude Key；Excel 公式不执行重算。"
+        "en": "Four local Word, Excel, PowerPoint and PDF skills for the DSH agent, with runnable examples, offline Python for Windows and both Mac architectures, and read-only document previews. Uses existing DSH file and shell tools; Excel formulas are not recalculated.",
+        "zh": "为 DSH Agent 提供 Word、Excel、PowerPoint、PDF 四套本地 Skills、可运行示例、Windows 与两种 Mac 架构的离线 Python，以及只读文档预览。通过 DSH 现有文件与脚本工具执行；Excel 公式不自动重算。"
       },
-      "install": "dsh plugin --profile web add aiko-dsh-office@0.2.2",
+      "install": "dsh plugin --profile web add aiko-dsh-office@0.3.0",
       "added": "2026-09-11"
     },
     {

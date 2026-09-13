@@ -1,38 +1,46 @@
 # Aiko Office
 
-Local Word, Excel, PowerPoint and PDF tools for the current DeepSeek Harness agent. No Claude account, additional model, or document upload is involved. The release includes Python and all document libraries for Windows x64, Apple Silicon and Intel Mac, so installing the published package from a prepared Desktop seed requires no network or system Python.
+Local Word, Excel, PowerPoint and PDF skills for the current DeepSeek Harness agent, with read-only sidebar previews and offline Python runtimes for Windows x64, Apple Silicon and Intel Mac. Document processing uses local libraries; model requests still use the agent's configured provider.
 
 ## Install
 
-Install **Aiko Office** from the Aiko organization catalog in dsh-market. Official Electron owns the package transaction and restarts its backend after activation. The package is removable through the native plugin manager. CLI users can add the published bundle with `dsh plugin --profile web add aiko-dsh-office@0.2.2`.
+Install **Aiko Office** on demand through dsh-market or DSH's native plugin manager. Aiko DSH's default installation includes the market; Office is an optional download with its own Python runtimes. The package contributes one Cordis row and is removable through the plugin manager. CLI users can run `dsh plugin --profile web add aiko-dsh-office@0.3.0`. Existing installations retain their Office version until explicitly updated through the plugin manager.
 
-Requires DSH 0.1.5-alpha.2. Windows x64 and macOS arm64/x64 automatically select the bundled runtime matching the Host process architecture. An Intel DSH running under Rosetta uses the x64 runtime. Other platforms require a local Python 3.12+ with `python/requirements.txt` installed, selected through `aiko-office.pythonPath`. A missing bundled interpreter produces an explicit reinstall error. No runtime downloads or package installation occur during a document operation. Desktop preinstallation retains user removals and does not force this plugin into existing profiles on upgrade.
+Requires DSH 0.1.5-alpha.2 with its skills service, skill loader, file tools, shell execution and present tool. Windows and macOS automatically select the bundled interpreter matching the Host process architecture; an Intel process under Rosetta uses x64. Other platforms require Python 3.12+ with python/requirements.txt installed. Set aiko-office.pythonPath to override the interpreter. Missing packaged runtimes produce an explicit reinstall error. No document operation downloads dependencies.
 
-## Model Experience
+## Skills
 
-`aiko_office_schema` returns the supported document fields, operation examples and limitations for one format. `aiko_office` reads, creates or edits files using structured data; it executes no model-provided code. The agent should read back its result, then use the existing DSH `present` tool to deliver the file. Tool calls and results use the normal DSH session log and tool presentation. DSH's configured model still requires its own normal model access; only document processing is offline.
+The plugin registers four packaged skills at DSH's bundled precedence. Project and user skills can override them. Only names and descriptions enter discovery; DSH loads the selected instructions and records them through its existing skill consumer. Each load includes the installed interpreter, common guide, helper and example paths.
 
-| Format | Operations |
+| Skill | Workflow |
 | --- | --- |
-| Word `.docx` | Create headings, formatted runs, paragraphs, tables, embedded images, headers, footers and margins; read paragraph/table content; replace literal text, edit paragraphs/table cells, append content. |
-| Excel `.xlsx` | Read bounded ranges; create sheets, scalar cells, formulas, styles, frozen panes and bar/line/pie charts; edit ranges, rename/add sheets, embed images. |
-| PowerPoint `.pptx` | Create editable text boxes, images, tables, backgrounds and notes; read shape IDs and positions; replace text, edit notes/text shapes, append slides and images. |
-| PDF `.pdf` | Create text/table reports, extract text, select/reorder/rotate pages and append PDFs. |
+| aiko-office-word | Editable DOCX creation and local edits, Word styles, tables, runs and XML checks |
+| aiko-office-excel | Typed XLSX data, editable formulas, formatting, charts and explicit calculation checks |
+| aiko-office-powerpoint | Editable PPTX objects, layout, notes, source preservation and geometry checks |
+| aiko-office-pdf | PDF generation, extraction, page operations and form verification guidance |
 
-All paths and images must resolve inside the session workspace. Output directories must already exist. Creates and edits require a new output path: originals are preserved and existing destinations are refused. The worker validates file size and OOXML expansion limits, processes files in memory, and atomically publishes complete new files. The process is managed by DSH, inherits its scrubbed environment, honors the session sandbox, and is terminated on cancellation, timeout or plugin unload.
+The agent reads the skill, writes a Python script in its workspace, runs it through DSH's existing shell tool, reopens the result, attempts visual verification when supported, and presents the requested file. The package includes independently written Chinese instructions and executable examples using python-docx, openpyxl, xlsxwriter, python-pptx, pypdf and ReportLab. It does not depend on Codex, its artifact-tool library, a second agent or a cloud Skills API.
 
-## Settings
+Version 0.3.0 removes the aiko_office and aiko_office_schema tool registrations. Calls from older conversations or integrations to those names must be replaced with skill loading and script execution; an unfinished old tool call is not automatically migrated. The existing bounded worker remains an implementation helper for structural reads and regression fixtures, not a model-facing tool.
 
-The `aiko-office` namespace accepts `pythonPath` (empty selects bundled Windows/macOS Python, or `python3` on other platforms), `timeoutMs` (120000), `graceMs` (2000), `maxFileBytes` (52428800), `maxArchiveBytes` (268435456), `maxResultBytes` (262144), and `maxItems` (2000). Saved settings take effect on the next call. The plugin adds no credentials or separate settings page. Edit the namespace through DSH's settings document when changing advanced limits.
+## Execution and verification
+
+The existing DSH shell owns process lifetime, timeout, cancellation, credential scrubbing and session sandbox enforcement. Scripts are model-authored code and have the same permissions as other shell commands. The former structured tool's per-operation path restrictions, atomic output policy and Office-specific timeout settings do not apply to arbitrary scripts. Skills and examples preserve inputs and use new output filenames; DSH policy remains the enforcement layer.
+
+python/office.py inspect reads bounded workspace-local structure, with --sheet/--range for Excel and --offset/--limit for paginated content. Its defaults are 50 MiB input, 256 MiB expanded OOXML, 2,000 items and 256 KiB result. It does not prove layout or recalculate formulas.
+
+python/office.py render uses optional local LibreOffice and Poppler, accepts explicit --soffice and --pdftoppm executable paths, and writes into a new workspace directory. It reports missing engines without claiming visual QA. Rendering is limited to a requested page interval (1–30 by default, at most 100 per invocation); inspect every relevant page and render further intervals when needed. These engines are not bundled. Rendering an XLSX through another engine does not prove that the original XLSX caches were updated.
+
+Only pythonPath remains an Office setting; changed values apply on the next skill load. Reload the skill after changing that setting. Timeout and permission choices belong to the shell. The former Office worker-limit settings are obsolete.
 
 ## Document Preview
 
-Version 0.1.1 registers Word, Excel and PowerPoint viewers in the official DSH sidebar. Open a presented `.docx`, `.xlsx` or `.pptx` file to use the matching viewer. Word displays pages, tables and images with fit-width or fixed zoom. Excel displays worksheet tabs through a selector, styled and merged cells, number formats, formula text or cached results, and embedded images below the grid; row and column controls access the entire used range in windows of 200 rows by 50 columns. PowerPoint renders one slide at a time with previous/next controls and direct slide selection. PDF continues using DSH's built-in viewer.
+The client registers Word, Excel and PowerPoint viewers in DSH's sidebar; PDF uses DSH's built-in viewer. Previews load local document bytes in a sandboxed iframe. No Office installation or cloud viewer is required. Renderers and their licenses ship in the plugin.
 
-All renderer code ships inside the plugin. Previews use complete bytes from DSH's session file reader and an opaque sandboxed iframe that denies network access, forms and parent-page access. No Office installation or cloud viewer is required. Renderer state and temporary URLs are discarded when the preview closes or reloads. The preview accepts files up to 50 MiB and rejects archives exceeding 10,000 entries, 64 MiB per entry or 256 MiB total expanded size; DSH's file-reader limit can reject a file earlier. PowerPoint additionally uses its renderer's recommended ZIP limits.
+Word previews pages, tables and images. Excel offers worksheets and windows of 200 rows by 50 columns, with styles, merged cells and separately displayed images. PowerPoint renders individual slides. Preview is read-only: Excel charts and conditional formatting are not displayed and formulas are not recalculated. Fonts and complex Office layouts can differ from native applications. Opening a preview is not evidence that the model inspected it.
 
-Preview is read-only. Spreadsheet charts and conditional formatting are not rendered, formula results are not recalculated, and images are shown separately rather than at cell anchors. Fonts must exist locally; complex Office layout, animation, embedded objects and EMF/WMF PDF fallbacks may differ or be absent. The sidebar's reload action rereads externally modified files.
+Files are limited to 50 MiB; preview archives are limited to 10,000 entries, 64 MiB per entry and 256 MiB expanded. PowerPoint also applies its renderer's ZIP limits. Viewer state and temporary URLs are released on close or reload.
 
 ## Limits
 
-Excel formulas are written but not recalculated. The workbook requests automatic calculation when opened by Excel; cached values are not current calculation evidence. Complex Excel extensions, macros, old `.doc/.xls/.ppt` files, encrypted PDFs, scanned-page OCR and automatic Office-to-PDF rendering are outside this release. PDF editing changes pages, not existing paragraph text. Word replacements cover ordinary paragraph runs, tables, headers and footers; drawings, fields and hyperlinks require other tooling. PowerPoint text-shape replacement resets that shape's run formatting, and advanced animations/master fidelity is not guaranteed. This plugin manipulates files; it does not automate installed Microsoft Office windows or add an embedded Office editor.
+Neither openpyxl nor xlsxwriter evaluates Excel formulas. Skills require checks of formula references and independent expected results, and disclosure when engine recalculation was not performed. LibreOffice/Poppler rendering, OCR, installed Office window automation, guaranteed macro/animation fidelity and a visual editor are not bundled capabilities. PDF page editing does not rewrite existing paragraphs. Advanced document operations need targeted file and object checks; a successfully saved file alone is insufficient.
