@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T18:50:32.093Z",
-  "count": 1729,
+  "updated": "2026-09-20T22:28:24.606Z",
+  "count": 1778,
   "categories": {
     "github-discovery": {
       "en": "GitHub community",
@@ -1221,24 +1221,6 @@
       }
     },
     {
-      "name": "cordis-plugin-graph",
-      "owner": "acryldev",
-      "url": "https://github.com/acryldev/cordis-plugin-graph",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH/Cordis Web plugin: a zoomable relation graph of every loaded plugin - dependencies, resolved providers, and Loader-tree nesting - as a Settings tab next to 'Plugin list'."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "dsh plugin --profile web add cordis-plugin-graph@0.2.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      },
-      "npm": "cordis-plugin-graph",
-      "version": "0.2.0"
-    },
-    {
       "name": "dsh-git-sidebar",
       "owner": "Adamaik",
       "url": "https://github.com/Adamaik/dsh-git-sidebar",
@@ -1492,6 +1474,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-12T16:09:19.043Z"
+      }
+    },
+    {
+      "name": "@dsh-external/dsh-session-manager",
+      "owner": "ailiasdesu",
+      "url": "https://github.com/ailiasdesu/dsh-session-manager",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH session migration plugin: drag-and-drop sessions between workspaces in the Web UI. Backed by the official workspaceRegistry service and a multi-frame-safe zstd header rewrite."
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -5119,22 +5117,6 @@
       "version": "0.1.1"
     },
     {
-      "name": "dsh-session-input-history",
-      "owner": "czhzz",
-      "url": "https://github.com/czhzz/dsh-input-history",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 会话隔离的输入历史导航插件（纯 client 双面）：对话输入框中按 ↑/↓ 方向键遍历当前会话发送过的消息（shell history 式交互），浏览中编辑或发送即退出。与全局历史插件的区别是历史严格限定在当前会话内。"
-      },
-      "stars": 0,
-      "added": "2026-09-17",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-17T13:30:25.544Z"
-      }
-    },
-    {
       "name": "@czj-git/dsh-plugin-hub",
       "owner": "czj-git",
       "url": "https://github.com/czj-git/dsh-plugin-hub",
@@ -5475,22 +5457,6 @@
       },
       "tarball": "https://github.com/DaydreAmRing/dsh-cho-kaguya-plugin-public/releases/download/v0.6.2/dsh-external-dsh-client-ui-skin-cho-kaguya-0.6.2.tgz",
       "version": "0.6.2"
-    },
-    {
-      "name": "dsh-git-manager",
-      "owner": "Dayi-Z",
-      "url": "https://github.com/Dayi-Z/gitcompass",
-      "category": "github-discovery",
-      "description": {
-        "en": "A GitHub-connected visual git manager for DeepSeek Harness — guided flow (branch → commit → push → PR → review → merge), commit graph with PR/CI badges, one-click GitHub login, and structured git tools for the agent. Its panel chrome rides the DSH theme tokens, so it re-skins with the host and every dsh-web-ui skin."
-      },
-      "stars": 0,
-      "added": "2026-09-19",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-19T12:31:18.838Z"
-      }
     },
     {
       "name": "dsh-read-image-view",
@@ -20351,6 +20317,24 @@
       "version": "0.4.26"
     },
     {
+      "name": "dsh-conversation-process-collapse",
+      "owner": "shimingming520",
+      "url": "https://github.com/shimingming520/dsh-conversation-process-collapse",
+      "category": "github-discovery",
+      "description": {
+        "en": "Collapses each settled turn's process rows into one disclosure in the DeepSeek Harness Web conversation"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "dsh plugin --profile web add dsh-conversation-process-collapse@0.3.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      },
+      "npm": "dsh-conversation-process-collapse",
+      "version": "0.3.0"
+    },
+    {
       "name": "dsh-videogen",
       "owner": "shimingming520",
       "url": "https://github.com/shimingming520/dsh-videogen",
@@ -21057,6 +21041,22 @@
       },
       "tarball": "https://github.com/squirrel20/dsh-cron/releases/download/v0.14.1/dsh-cron.tgz",
       "version": "0.14.1"
+    },
+    {
+      "name": "dsh-pwsh-progress",
+      "owner": "sssueason",
+      "url": "https://github.com/sssueason/dsh-pwsh-progress",
+      "category": "github-discovery",
+      "description": {
+        "en": "对话流实时任务进度：后台任务（pwsh/bash/subagent 等 run_in_background）显示状态、耗时、进度条、预计剩余时间与停止按钮；非消费式 jobs.get 跟踪，模型 job_output 不受影响。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
     },
     {
       "name": "@stardustlc/dsh-dream",
@@ -22815,24 +22815,6 @@
       }
     },
     {
-      "name": "tripo-dsh",
-      "owner": "VAST-AI-Research",
-      "url": "https://github.com/VAST-AI-Research/Tripo3D-Plugin-dsh/tree/master/plugin",
-      "category": "github-discovery",
-      "description": {
-        "en": "Tripo 3D skills for DeepSeek Harness — generate engine-ready 3D assets from a text prompt or a reference image via tripo-cli, with texturing, rigging, retopology and format conversion in one pass."
-      },
-      "stars": 2,
-      "added": "2026-09-12",
-      "install": "dsh plugin --profile web add tripo-dsh@0.1.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-12T22:19:41.704Z"
-      },
-      "npm": "tripo-dsh",
-      "version": "0.1.0"
-    },
-    {
       "name": "dsh-private-plugins",
       "owner": "vb2250158",
       "url": "https://github.com/vb2250158/dsh-plugins",
@@ -23291,22 +23273,6 @@
       "version": "0.1.0"
     },
     {
-      "name": "dsh-fs-allowlist",
-      "owner": "wangzhaonan16",
-      "url": "https://github.com/wangzhaonan16/dsh-fs-allowlist",
-      "category": "github-discovery",
-      "description": {
-        "en": "Approval-free writes into whitelisted directories: wraps ctx.fs.checkedTarget for write/edit, auto-approves bash escalations that touch whitelisted paths, with a Settings GUI. 白名单目录写入免审批（write/edit + bash），设置页可视化调整。"
-      },
-      "stars": 0,
-      "added": "2026-09-15",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-15T22:55:22.952Z"
-      }
-    },
-    {
       "name": "@wanyexin1998/dsh-workbench",
       "owner": "wanyexin1998",
       "url": "https://github.com/wanyexin1998/dsh-workbench/tree/main/packages/dsh-workbench",
@@ -23455,22 +23421,6 @@
       },
       "npm": "dsh-composer-tokens",
       "version": "0.1.2"
-    },
-    {
-      "name": "dsh-plugin-update-audit",
-      "owner": "wcnm8888",
-      "url": "https://github.com/wcnm8888/dsh-plugin-update-audit",
-      "category": "github-discovery",
-      "description": {
-        "en": "Read-only update auditing for DeepSeek Harness profile plugins across npm, GitHub, and local package sources."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
     },
     {
       "name": "dsh-trace",
@@ -23873,24 +23823,6 @@
         "status": "source-only",
         "checkedAt": "2026-09-12T18:25:05.746Z"
       }
-    },
-    {
-      "name": "codinput",
-      "owner": "Witherwithwinter",
-      "url": "https://github.com/Witherwithwinter/Codinput",
-      "category": "github-discovery",
-      "description": {
-        "en": "Codinput —— DSH Web 聊天输入框的代码编辑器风格替换插件：行号、Markdown 编辑/预览/分屏、底部/侧边/浮动停靠、Ctrl+Enter 发送纯文本 Markdown 源码。"
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "dsh plugin --profile web add codinput@0.1.2",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-12T18:25:05.746Z"
-      },
-      "npm": "codinput",
-      "version": "0.1.2"
     },
     {
       "name": "dsh-whale-widget-bowl",
@@ -25135,6 +25067,22 @@
       }
     },
     {
+      "name": "xby-mingli",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-mingli",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个支持多种命理系统（紫微斗数、八字等）的MCP协议服务器，为AI工具提供命理分析与运势查询功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-mm1-simulation",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-mm1-simulation",
@@ -25148,6 +25096,246 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-19T18:38:37.468Z"
+      }
+    },
+    {
+      "name": "xby-mvn",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-mvn",
+      "category": "github-discovery",
+      "description": {
+        "en": "Maven MCP Server是一个通过自然语言交互的AI驱动Maven依赖管理工具，提供版本检查、安全扫描和依赖分析功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-nba-stats",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-nba-stats",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个提供实时和历史NBA数据的模型上下文协议服务器，包括球员统计、比赛得分、球队信息和高级分析。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-obb",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-obb",
+      "category": "github-discovery",
+      "description": {
+        "en": "检测图像中的旋转目标，输出旋转边界框、角度、置信度和类别标签。支持15个目标类别：plane， ship，storage tank，baseball diamond，tennis court，basketball court，ground track field， harbor， bridge，large vehicle，small vehicle， helicopter， roundabout，soccer ball field，swimming pool。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr",
+      "category": "github-discovery",
+      "description": {
+        "en": "兼顾速度与精度的文字识别。输入包含文本的图像，自动检测并识别内容。适用于各类文档、广告牌、屏幕截图等场景。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-bank-card",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-bank-card",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别银行卡号、发卡银行和卡类型，使用 Luhn 算法校验卡号有效性。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-biz-license",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-biz-license",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别营业执照的统一社会信用代码、名称、法定代表人、注册资本、成立日期、经营范围、登记机关和住所地址。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-captcha",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-captcha",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入常见验证码图片，返回验证码文本内容。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-driver-license",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-driver-license",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别驾驶证主页（证号、姓名、性别、国籍、住址、出生日期、准驾车型、初次领证日期、有效期限）和副页（档案编号）。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-handwriting",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-handwriting",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入包含手写文本的图像，自动检测文本行并识别内容。适用于手写笔记、签名、手写表单等。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-id-card",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-id-card",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别身份证正面（姓名、性别、民族、出生日期、住址、身份证号）和背面（签发机关、有效期限），自动判断正反面并校验身份证号有效性。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-pass",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-pass",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别港澳通行证、台湾通行证的通行证号码、姓名、性别、出生日期、有效期、签发地点等信息，支持MRZ机读码解析。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-passport",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-passport",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别护照号码、中文姓名、英文姓名、性别、国籍、出生日期、签发日期、有效期至、签发地点等信息，支持MRZ机读码解析。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-pro",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-pro",
+      "category": "github-discovery",
+      "description": {
+        "en": "高精度文字识别。输入包含文本的图像，自动检测并识别内容。适用于各类文档、广告牌、屏幕截图等场景。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-ocr-vehicle-license",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-ocr-vehicle-license",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别机动车行驶证的号牌号码、车辆类型、所有人、住址、品牌型号、发动机号码、车辆识别代号等信息，支持自动方向检测和主副页过滤。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-oecd-search",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-oecd-search",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个通过SDMX API提供OECD全面统计数据的模型上下文协议（MCP）服务器，支持AI助手和聊天机器人查询经济、健康、教育、环境等OECD数据集。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -25183,6 +25371,134 @@
       }
     },
     {
+      "name": "xby-osrs-stat",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-osrs-stat",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个提供实时《Old School RuneScape》玩家统计数据和排行榜数据的Model Context Protocol (MCP)服务器，支持多种游戏模式和玩家比较功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-pedestrian",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-pedestrian",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入一张图像，检测图像中的行人，输出所有目标的检测框、置信度和标签。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-pet-detect",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-pet-detect",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别宠物面部表情，输出 4 类情绪: Angry / Happy / Relaxed / Sad。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-philippine-geocoding",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-philippine-geocoding",
+      "category": "github-discovery",
+      "description": {
+        "en": "提供菲律宾标准地理编码（PSGC）API访问的模型上下文协议（MCP）服务器，包含完整的菲律宾地理层级数据。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-pic",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-pic",
+      "category": "github-discovery",
+      "description": {
+        "en": "包括通用文本识别、手写识别、车牌识别、身份证识别、日常物体检测、昆虫识别、植物识别、护照识别、港澳台通行证识别、银行卡识别、营业执照识别、驾驶证识别、行驶证识别、动物识别、电动自行车检测、手机检测、手势检测、火焰检测、香烟检测、人头人体检测、野生动物检测、鸟类识别、宠物情绪识别、菜品识别、安全帽人体检测、行人检测、反光衣检测、车辆检测、图像分类、目标检测、旋转目标检测、人体姿态估计和万物识别。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-plant-recognition",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-plant-recognition",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别植物名称（或所属科, 属, 种或亚种）。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-plate-recognition",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-plate-recognition",
+      "category": "github-discovery",
+      "description": {
+        "en": "识别车牌号、车牌颜色、单/双层车牌、位置框。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-pose",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-pose",
+      "category": "github-discovery",
+      "description": {
+        "en": "检测图像中的人物，输出边界框和关键点坐标。每人有 17 个关键点，每个点代表人体不同的部位，依次为鼻子、左眼、右眼、左耳、右耳、左肩、右肩、左肘、右肘、左腕、右腕、左髋、右髋、左膝、右膝、左脚踝、右脚踝。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-pubchem",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-pubchem",
@@ -25215,6 +25531,38 @@
       }
     },
     {
+      "name": "xby-quick-chart",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-quick-chart",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于Model Context Protocol (MCP)的服务器，提供与Quick Chart交互的标准化接口，支持图表生成和管理。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-random-generator",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-random-generator",
+      "category": "github-discovery",
+      "description": {
+        "en": "一款符合MCP协议的加密安全随机数生成服务器，适用于AI应用、LLM及其他需要高质量随机数的系统。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-random-number",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-random-number",
@@ -25228,6 +25576,166 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-19T18:38:37.468Z"
+      }
+    },
+    {
+      "name": "xby-react-composer-kit",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-react-composer-kit",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个为Composer Kit React组件库提供文档、示例和使用信息的MCP服务器，专为在Celo区块链上构建web3应用而设计。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-read-pdf",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-read-pdf",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个支持AI助手读取和分析PDF文件的MCP服务器，提供PDF元数据提取、页面范围阅读和关键词搜索等功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-read-website",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-read-website",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个快速、高效的网页内容提取工具，将网页转换为干净的Markdown格式，适用于AI代理、IDE和LLM管道。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-real-time-news",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-real-time-news",
+      "category": "github-discovery",
+      "description": {
+        "en": "实时新闻"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-recipe-query",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-recipe-query",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个支持通过命令行查询菜谱和报菜名的菜谱查询工具，适用于烹饪爱好者和开发者。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-recog",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-recog",
+      "category": "github-discovery",
+      "description": {
+        "en": "包括通用文本识别、手写识别、车牌识别、身份证识别、护照识别、港澳台通行证识别、银行卡识别、营业执照识别、驾驶证识别、行驶证识别。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-reflective-vest",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-reflective-vest",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入一张图像，检测人员是否穿戴反光衣，输出图片中所有目标的检测框、置信度和标签（safe/unsafe）。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-remember-memory",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-remember-memory",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于分类的持久化记忆系统实现，允许Claude跨聊天会话存储和检索分类记忆信息。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-review-code",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-review-code",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于Model Context Protocol (MCP)的代码审查工具服务器，提供多维度的代码审查和打分功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-rfc-doc",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-rfc-doc",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个用于从ietf.org网站获取、解析和阅读RFC文档的MCP服务器，提供程序化交互工具。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -25263,6 +25771,54 @@
       }
     },
     {
+      "name": "xby-search-apple-docs",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-search-apple-docs",
+      "category": "github-discovery",
+      "description": {
+        "en": "通过模型上下文协议（MCP）访问苹果官方开发者文档、框架、API及WWDC视频，支持AI驱动的自然语言查询，提供Swift/Objective-C代码示例和技术指南。"
+      },
+      "stars": 1,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-search-movie",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-search-movie",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于 Model Context Protocol (MCP) 构建的智能电影和电视剧资源搜索工具，支持多源搜索和链接验证。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-seg",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-seg",
+      "category": "github-discovery",
+      "description": {
+        "en": "实例分割比目标检测更进一步，不但要识别图像中的单个对象，还要将其从图像的其余部分中分割出来。对图像中的80类COCO目标进行实例分割，输出边界框、掩膜、置信度和类别标签。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-sequentialthinking",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-sequentialthinking",
@@ -25295,6 +25851,22 @@
       }
     },
     {
+      "name": "xby-smoking-detection",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-smoking-detection",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入一张图像，对其中的香烟目标进行检测，输出图片中所有目标的检测框、置信度和标签。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-source-coop",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-source-coop",
@@ -25311,6 +25883,22 @@
       }
     },
     {
+      "name": "xby-speech-synthesis",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-speech-synthesis",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个集成了Microsoft Edge高质量语音合成能力的MCP服务器，支持多语言语音生成、音频合并和云端存储。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-structured-argumentation",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-structured-argumentation",
@@ -25324,6 +25912,102 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-19T18:38:37.468Z"
+      }
+    },
+    {
+      "name": "xby-subnet-calculator",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-subnet-calculator",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于Model Context Protocol的服务，提供IPv4子网规划工具，包括子网大小计算、通配符掩码生成、网关选择和主机验证等功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-text-toolkit",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-text-toolkit",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个提供文本转换、格式化和分析功能的MCP服务器，可直接集成到开发工作流中。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-text-transformer",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-text-transformer",
+      "category": "github-discovery",
+      "description": {
+        "en": "提供多种文本转换功能的MCP服务器，包括大小写转换、反转字符串、检测回文等功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-the-met",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-the-met",
+      "category": "github-discovery",
+      "description": {
+        "en": "查询搜索和获取博物馆的开放藏品数据"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-time",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-time",
+      "category": "github-discovery",
+      "description": {
+        "en": "提供时间和时区转换功能的模型上下文协议服务器，支持获取当前时间和时区转换。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-time-zone",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-time-zone",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个全面的MCP服务器，提供全球时区管理和时间转换功能，适用于全球业务协调、旅行规划和开发运维。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -25359,6 +26043,54 @@
       }
     },
     {
+      "name": "xby-traditional-chinese-medicine-formulas-kg",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-traditional-chinese-medicine-formulas-kg",
+      "category": "github-discovery",
+      "description": {
+        "en": "围绕中药方剂、方名、来源、别名、处方、中药名、剂量、功能主治及其之间的联系构建知识谱图。仅限初步研究，具体应用需根据实际情况调整。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-traditional-chinese-medicine-kg",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-traditional-chinese-medicine-kg",
+      "category": "github-discovery",
+      "description": {
+        "en": "围绕中药名，中药材，别名，来源，分布，功能，主治，归经，四气，四气及其之间的联系构建知识谱图。仅限初步研究，具体应用需根据实际情况调整。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-uk-police-data-query",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-uk-police-data-query",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个提供英国警察数据查询的MCP服务器，包括犯罪记录、警察部队、社区信息和拦截搜查数据。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
       "name": "xby-vnstock",
       "owner": "xby-skill",
       "url": "https://github.com/xby-skill/xby-vnstock",
@@ -25388,6 +26120,54 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-19T18:38:37.468Z"
+      }
+    },
+    {
+      "name": "xby-who-is",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-who-is",
+      "category": "github-discovery",
+      "description": {
+        "en": "一个基于Model Context Protocol (MCP)的WHOIS域名查询服务器，支持877+顶级域名和169个国家代码顶级域名的解析，提供全面的域名注册信息查询功能。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-wikimedia-search-images",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-wikimedia-search-images",
+      "category": "github-discovery",
+      "description": {
+        "en": "该MCP服务器使AI助手能够在Wikimedia Commons上搜索图片，提供详细的元数据和可选的缩略图组合，帮助AI模型进行视觉比较。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
+      }
+    },
+    {
+      "name": "xby-wild-animal-detection",
+      "owner": "xby-skill",
+      "url": "https://github.com/xby-skill/xby-wild-animal-detection",
+      "category": "github-discovery",
+      "description": {
+        "en": "输入一张图像，输出图像中所有识别到的野生动物的检测框、置信度及标签。"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -25710,6 +26490,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-18T22:35:46.964Z"
+      }
+    },
+    {
+      "name": "dsh-vault",
+      "owner": "XiaoWind",
+      "url": "https://github.com/XiaoWind/dsh-vault",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin: persist every conversation and log inside the workspace folder so copying that folder to a new machine restores all sessions (including the workspace name)"
+      },
+      "stars": 0,
+      "added": "2026-09-20",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-20T22:27:54.943Z"
       }
     },
     {
@@ -28295,22 +29091,6 @@
       "version": "0.1.3"
     },
     {
-      "name": "dsh-auto-fold",
-      "owner": "zhengmz",
-      "url": "https://github.com/zhengmz/dsh-auto-fold",
-      "category": "github-discovery",
-      "description": {
-        "en": "官方回合折叠模式为 Compact 时，打开会话自动加载全部历史，让官方原生回合折叠立即生效：不新增折叠行、不接管官方设置、数据完整无偏差。When the official turn-folding mode is Compact, auto-loads the full conversation history on session open so the official native per-turn folding engages — no extra fold rows, no takeover, always data-complete."
-      },
-      "stars": 1,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T04:37:48.011Z"
-      }
-    },
-    {
       "name": "dsh-web",
       "owner": "zhenzhao2026",
       "url": "https://github.com/zhenzhao2026/dsh-web",
@@ -28962,8 +29742,8 @@
   "discovery": {
     "version": 1,
     "topic": "dsh-plugin",
-    "total": 15508,
-    "checked": 1802,
+    "total": 15470,
+    "checked": 1851,
     "complete": false
   }
 }
