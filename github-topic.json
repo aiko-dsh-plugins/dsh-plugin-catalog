@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T18:07:12.719Z",
-  "count": 3002,
+  "updated": "2026-09-29T23:45:12.990Z",
+  "count": 3033,
   "categories": {
     "github-discovery": {
       "en": "GitHub community",
@@ -3405,24 +3405,6 @@
       }
     },
     {
-      "name": "dsh-shell-card-plus",
-      "owner": "antnesswcm",
-      "url": "https://github.com/antnesswcm/dsh-shell-card-plus",
-      "category": "github-discovery",
-      "description": {
-        "en": "Shell command cards (bash / pwsh) for the DSH web UI: fully custom React-rendered tool cards replacing the official terminal tool rows — status dot, cwd, error pill, copy command/output, numbered command + scrollable output."
-      },
-      "stars": 0,
-      "added": "2026-09-18",
-      "install": "dsh plugin --profile web add dsh-shell-card-plus@0.3.2",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-18T19:03:11.681Z"
-      },
-      "npm": "dsh-shell-card-plus",
-      "version": "0.3.2"
-    },
-    {
       "name": "dsh-message-handoff",
       "owner": "antonkoatl",
       "url": "https://github.com/antonkoatl/dsh-message-handoff",
@@ -4821,22 +4803,6 @@
       "version": "0.1.4"
     },
     {
-      "name": "dsh-media-forge",
-      "owner": "Bigesila-B",
-      "url": "https://github.com/Bigesila-B/dsh-media-forge",
-      "category": "github-discovery",
-      "description": {
-        "en": "Media Forge: agent + skills workflow for media-generation APIs, with a sidebar panel for loading saved generation skills into a conversation"
-      },
-      "stars": 0,
-      "added": "2026-09-22",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-22T13:26:22.743Z"
-      }
-    },
-    {
       "name": "dsh-agentnoodle",
       "owner": "bigharm",
       "url": "https://github.com/bigharm/dsh-agentnoodle",
@@ -5184,22 +5150,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-15T19:43:06.772Z"
-      }
-    },
-    {
-      "name": "dsh-receipt",
-      "owner": "bluechips-zhao",
-      "url": "https://github.com/bluechips-zhao/dsh-receipt",
-      "category": "github-discovery",
-      "description": {
-        "en": "会话消费小票：按模型展示每个对话的 token 用量、调用次数、耗时与费用（receipt-style per-conversation usage and cost）"
-      },
-      "stars": 2,
-      "added": "2026-09-22",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-22T19:45:37.677Z"
       }
     },
     {
@@ -6479,6 +6429,22 @@
       },
       "npm": "dsh-sightline",
       "version": "0.1.0"
+    },
+    {
+      "name": "dsh-plugin-global-prompt",
+      "owner": "chaserchan",
+      "url": "https://github.com/chaserchan/dsh-plugin-global-prompt",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 插件：在「设置 → 通用设置」新增全局 Prompt 输入框，注入每次对话（含子代理）的系统提示词，保存即生效。"
+      },
+      "stars": 1,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
     },
     {
       "name": "@dsh-pet/plugin",
@@ -9187,37 +9153,19 @@
       }
     },
     {
-      "name": "dsh-sub-cli",
-      "owner": "dingminhua",
-      "url": "https://github.com/dingminhua/dsh-sub-cli/tree/main/plugin",
+      "name": "dsh-theme-atom-commune",
+      "owner": "dingdongji-hub",
+      "url": "https://github.com/dingdongji-hub/dsh-atom-commune-skin",
       "category": "github-discovery",
       "description": {
-        "en": "Unified management and invocation of external Agent CLIs in DSH, fully isolated from the user's native installs; preset Provider, model, reasoning effort, and permissions per CLI, callable directly or like native subagents."
+        "en": "公社 (Commune) theme for the DeepSeek Harness Web UI — atompunk / Soviet monumental-building background, rose-red UI, yellow hammer-&-sickle & atom accents."
       },
       "stars": 1,
-      "added": "2026-09-22",
-      "install": "dsh plugin --profile web add dsh-sub-cli@0.1.2",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-22T22:58:31.732Z"
-      },
-      "npm": "dsh-sub-cli",
-      "version": "0.1.2"
-    },
-    {
-      "name": "dsh-subagent-default-model",
-      "owner": "dingminhua",
-      "url": "https://github.com/dingminhua/dsh-sub-cli/tree/main/reference/dsh-subagent-default-model/plugin",
-      "category": "github-discovery",
-      "description": {
-        "en": "Default model for subagent delegations, configurable via the `subagent-default-model` settings section (no explicit per-call model keeps inheriting the parent route)."
-      },
-      "stars": 1,
-      "added": "2026-09-22",
+      "added": "2026-09-29",
       "install": "",
       "discovery": {
         "status": "source-only",
-        "checkedAt": "2026-09-22T22:58:31.732Z"
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -12409,38 +12357,6 @@
       }
     },
     {
-      "name": "dsh-drop-md",
-      "owner": "Frank-NF",
-      "url": "https://github.com/Frank-NF/dsh-drop-md",
-      "category": "github-discovery",
-      "description": {
-        "en": "Drag-and-drop markdown enhancer for DSH / DSH 拖拽增强插件：小文件全文插入草稿，大文件落盘引用，SKILL.md 一键安装到项目/用户技能目录。"
-      },
-      "stars": 0,
-      "added": "2026-09-17",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-17T22:52:05.423Z"
-      }
-    },
-    {
-      "name": "dsh-memory-nexus",
-      "owner": "Frank-NF",
-      "url": "https://github.com/Frank-NF/dsh-memory-nexus",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 一体化记忆与上下文管控增强插件 — 四层记忆 + 上下文压缩 + 提示词编排"
-      },
-      "stars": 0,
-      "added": "2026-09-17",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-17T04:55:48.766Z"
-      }
-    },
-    {
       "name": "@dsh-external/dsh-client-ui-skin-wuthering-aemeath",
       "owner": "frank6892103",
       "url": "https://github.com/frank6892103/dsh-WutheringWaves/tree/master/themes/aemeath",
@@ -12647,22 +12563,6 @@
       },
       "npm": "@frog755/dsh-prompt-vault",
       "version": "1.0.2"
-    },
-    {
-      "name": "tokan-dsh-token-analytics",
-      "owner": "fthuu",
-      "url": "https://github.com/fthuu/Tokan-dsh-token-analytics",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH plugin for token usage analytics, cost tracking, and optimization signals"
-      },
-      "stars": 0,
-      "added": "2026-09-16",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-16T22:57:58.996Z"
-      }
     },
     {
       "name": "dsh-concurrency-guard",
@@ -13734,6 +13634,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T10:42:42.995Z"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-git",
+      "owner": "gxinxing",
+      "url": "https://github.com/gxinxing/dsh-tool-git",
+      "category": "github-discovery",
+      "description": {
+        "en": "Intelligent Git operations: commit messages, diff summaries, changelogs, conflict risk, and release prep"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-test-runner",
+      "owner": "gxinxing",
+      "url": "https://github.com/gxinxing/dsh-tool-test-runner",
+      "category": "github-discovery",
+      "description": {
+        "en": "Model-facing test runner tool for discovering, executing, analyzing, and reporting test results across jest/vitest/pytest/mocha/playwright."
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -15155,22 +15087,6 @@
       },
       "npm": "dsh-mall",
       "version": "1.8.6"
-    },
-    {
-      "name": "@hpyperry/dsh-cajita",
-      "owner": "hpyperry",
-      "url": "https://github.com/hpyperry/dsh-cajita",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 小工具箱插件：编辑消息 / web_fetch 内网放行 / 提醒通知（设置卡片统一开关）"
-      },
-      "stars": 0,
-      "added": "2026-09-16",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-16T19:35:00.430Z"
-      }
     },
     {
       "name": "@hr98w/dsh-memory",
@@ -16796,22 +16712,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-13T03:03:58.898Z"
-      }
-    },
-    {
-      "name": "galvanize-dsh",
-      "owner": "jarvis959",
-      "url": "https://github.com/jarvis959/galvanize-dsh",
-      "category": "github-discovery",
-      "description": {
-        "en": "Native DSH (DeepSeek Harness) bundle for galvanize event triggers: trigger_add/list/remove/test/status in the agent's tool schema, thin client over the core's versioned local API."
-      },
-      "stars": 0,
-      "added": "2026-09-20",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-20T13:04:19.895Z"
       }
     },
     {
@@ -20433,6 +20333,24 @@
       }
     },
     {
+      "name": "dsh-whale-celebration",
+      "owner": "kob-repo",
+      "url": "https://github.com/kob-repo/dsh-whale-celebration",
+      "category": "github-discovery",
+      "description": {
+        "en": "任务完成庆祝：根代理完成任务时，DSH Web GUI 页面底部出现 DeepSeek 官方鲸鱼喷水 3 秒。本地外部插件，不改 DSH 源码。"
+      },
+      "stars": 1,
+      "added": "2026-09-29",
+      "install": "dsh plugin --profile web add dsh-whale-celebration@1.0.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      },
+      "npm": "dsh-whale-celebration",
+      "version": "1.0.1"
+    },
+    {
       "name": "@kobenfang/dsh-bigtimer",
       "owner": "kobenfang",
       "url": "https://github.com/kobenfang/BigTimer",
@@ -21127,6 +21045,24 @@
         "status": "source-only",
         "checkedAt": "2026-09-21T20:26:43.651Z"
       }
+    },
+    {
+      "name": "@lastplayer82/dsh-tanqi",
+      "owner": "lastplayer82",
+      "url": "https://github.com/lastplayer82/dsh-tanqi",
+      "category": "github-discovery",
+      "description": {
+        "en": "探奇 (Tanqi) for the dsh web GUI: AI-generated curiosity items with layered deep-dives. A sidebar entry opens the panel — 「开始探奇」 generates a fresh batch of unexpected knowledge (excluding everything already seen), each item can be unfolded into two deeper layers plus similar knowledge points, and 「探奇清单」 keeps the full history (batch, items, every layer, every similar point) in browser localStorage. The model channel reuses the host's own LLM (ctx.llm, zero config); when the host has no usable model, the user can paste a DeepSeek API key which is stored locally in the browser. Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes."
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "dsh plugin --profile web add @lastplayer82/dsh-tanqi@0.2.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      },
+      "npm": "@lastplayer82/dsh-tanqi",
+      "version": "0.2.0"
     },
     {
       "name": "@launchmaniac/dsh-media-tools",
@@ -22889,6 +22825,22 @@
       },
       "npm": "dsh-browser-bridge",
       "version": "0.1.0"
+    },
+    {
+      "name": "@lizheng1992123/dsh-llm-kiro",
+      "owner": "LiZheng1992123",
+      "url": "https://github.com/LiZheng1992123/dsh-llm-kiro",
+      "category": "github-discovery",
+      "description": {
+        "en": "Kiro CLI (ACP) adapter for the DeepSeek Harness LLM seam"
+      },
+      "stars": 2,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
     },
     {
       "name": "dsh-tools-plugins",
@@ -24939,22 +24891,6 @@
       }
     },
     {
-      "name": "dsh-sidebar-buttons",
-      "owner": "lywusichen",
-      "url": "https://github.com/lywusichen/dsh-sidebar-buttons",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness plugin: manage the sidebar-foot action buttons — reorder them by drag-and-drop and control each one from a dedicated settings page with three states (show in sidebar / fold into the \"More\" menu / fully hide)."
-      },
-      "stars": 3,
-      "added": "2026-09-22",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-22T19:45:37.677Z"
-      }
-    },
-    {
       "name": "dsh-model-visibility",
       "owner": "Lzh3070",
       "url": "https://github.com/Lzh3070/dsh-model-visibility",
@@ -25625,60 +25561,6 @@
       },
       "npm": "@max-null/dsh-draft-polish",
       "version": "0.2.3"
-    },
-    {
-      "name": "dsh-grafana-query",
-      "owner": "maxmilian",
-      "url": "https://github.com/maxmilian/dsh-grafana-query",
-      "category": "github-discovery",
-      "description": {
-        "en": "Read-only Grafana metrics and alert tools for DeepSeek Harness."
-      },
-      "stars": 2,
-      "added": "2026-09-22",
-      "install": "dsh plugin --profile web add dsh-grafana-query@0.1.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-22T04:59:17.689Z"
-      },
-      "npm": "dsh-grafana-query",
-      "version": "0.1.0"
-    },
-    {
-      "name": "dsh-odoo",
-      "owner": "maxmilian",
-      "url": "https://github.com/maxmilian/dsh-odoo",
-      "category": "github-discovery",
-      "description": {
-        "en": "Read-only Odoo tools for DeepSeek Harness, with an opt-in restricted draft-create tool."
-      },
-      "stars": 2,
-      "added": "2026-09-22",
-      "install": "dsh plugin --profile web add dsh-odoo@0.1.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-22T04:59:17.689Z"
-      },
-      "npm": "dsh-odoo",
-      "version": "0.1.0"
-    },
-    {
-      "name": "dsh-sentry",
-      "owner": "maxmilian",
-      "url": "https://github.com/maxmilian/dsh-sentry",
-      "category": "github-discovery",
-      "description": {
-        "en": "Read-only Sentry issue and event tools for DeepSeek Harness."
-      },
-      "stars": 2,
-      "added": "2026-09-22",
-      "install": "dsh plugin --profile web add dsh-sentry@0.1.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-22T04:59:17.689Z"
-      },
-      "npm": "dsh-sentry",
-      "version": "0.1.0"
     },
     {
       "name": "dsh-tool-result-guard",
@@ -26637,22 +26519,6 @@
       "version": "0.1.3"
     },
     {
-      "name": "dsh-inform",
-      "owner": "mobaixingyao",
-      "url": "https://github.com/mobaixingyao/dsh-inform",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 任务提醒插件：任务完成/需要批准/需要回答时发系统通知（可选页面浮层与自定义音频），三类事件独立开关"
-      },
-      "stars": 0,
-      "added": "2026-09-24",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-24T20:00:11.197Z"
-      }
-    },
-    {
       "name": "cortex-dsh-web-command",
       "owner": "mobfish-ai",
       "url": "https://github.com/mobfish-ai/cortex-harness-open",
@@ -27120,6 +26986,24 @@
         "checkedAt": "2026-09-13T04:50:25.705Z"
       },
       "npm": "dsh-yorha-ui",
+      "version": "0.1.1"
+    },
+    {
+      "name": "@accurlex/dsh-legal",
+      "owner": "MrPunchLeonardo",
+      "url": "https://github.com/MrPunchLeonardo/accurlex-dsh-legal",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin for accurLex Open Platform legal tools"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "dsh plugin --profile web add @accurlex/dsh-legal@0.1.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      },
+      "npm": "@accurlex/dsh-legal",
       "version": "0.1.1"
     },
     {
@@ -33117,24 +33001,6 @@
       }
     },
     {
-      "name": "@saidouahdachi/dsh-tool-fs-search-native",
-      "owner": "Saidoua",
-      "url": "https://github.com/Saidoua/dsh-rs/tree/main/plugin",
-      "category": "github-discovery",
-      "description": {
-        "en": "The dsh grep and glob tools executed in-process by the dsh-rs addon, with the packaged-ripgrep spawn as the fallback"
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "dsh plugin --profile web add @saidouahdachi/dsh-tool-fs-search-native@0.1.1",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-13T18:48:40.122Z"
-      },
-      "npm": "@saidouahdachi/dsh-tool-fs-search-native",
-      "version": "0.1.1"
-    },
-    {
       "name": "@asuka1121/dsh-client-ui-elasticsearch",
       "owner": "SaitoAsuka1121",
       "url": "https://github.com/SaitoAsuka1121/dsh-client-ui-elasticsearch",
@@ -38051,6 +37917,118 @@
       }
     },
     {
+      "name": "dsh-future-embodied-ai",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-embodied-ai",
+      "category": "github-discovery",
+      "description": {
+        "en": "具身智能"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-emotional-ai",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-emotional-ai",
+      "category": "github-discovery",
+      "description": {
+        "en": "情感 AI"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-gene-editing",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-gene-editing",
+      "category": "github-discovery",
+      "description": {
+        "en": "基因编辑未来"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-interstellar",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-interstellar",
+      "category": "github-discovery",
+      "description": {
+        "en": "星际旅行"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-metaverse",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-metaverse",
+      "category": "github-discovery",
+      "description": {
+        "en": "元宇宙"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-quantum-computing",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-quantum-computing",
+      "category": "github-discovery",
+      "description": {
+        "en": "量子计算"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-future-robot-pet",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-future-robot-pet",
+      "category": "github-discovery",
+      "description": {
+        "en": "机器宠物"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-future-solid-state-battery",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-future-solid-state-battery",
@@ -38291,6 +38269,150 @@
       }
     },
     {
+      "name": "dsh-germanium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-germanium",
+      "category": "github-discovery",
+      "description": {
+        "en": "锗元素"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-germany",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-germany",
+      "category": "github-discovery",
+      "description": {
+        "en": "德国国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-ghana",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ghana",
+      "category": "github-discovery",
+      "description": {
+        "en": "加纳国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-guangzhou-city",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-guangzhou-city",
+      "category": "github-discovery",
+      "description": {
+        "en": "广州市"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-guyana",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-guyana",
+      "category": "github-discovery",
+      "description": {
+        "en": "圭亚那国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-ha2acre",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ha2acre",
+      "category": "github-discovery",
+      "description": {
+        "en": "公顷转英亩"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-habit-anchor",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-habit-anchor",
+      "category": "github-discovery",
+      "description": {
+        "en": "习惯叠加"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-hafnium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hafnium",
+      "category": "github-discovery",
+      "description": {
+        "en": "铪元素"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-hair-care",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hair-care",
+      "category": "github-discovery",
+      "description": {
+        "en": "护发建议"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-hair-dryer",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-hair-dryer",
@@ -38371,6 +38493,54 @@
       }
     },
     {
+      "name": "dsh-high-speed-rail",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-high-speed-rail",
+      "category": "github-discovery",
+      "description": {
+        "en": "高铁指南"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-highway-drive",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-highway-drive",
+      "category": "github-discovery",
+      "description": {
+        "en": "高速驾驶"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-holmium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-holmium",
+      "category": "github-discovery",
+      "description": {
+        "en": "钬元素"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-honduras",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-honduras",
@@ -38384,6 +38554,70 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-hp2kw",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hp2kw",
+      "category": "github-discovery",
+      "description": {
+        "en": "马力转千瓦"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-human-food",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-human-food",
+      "category": "github-discovery",
+      "description": {
+        "en": "人类食物喂食"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-hungary",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hungary",
+      "category": "github-discovery",
+      "description": {
+        "en": "匈牙利国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-iceland",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-iceland",
+      "category": "github-discovery",
+      "description": {
+        "en": "冰岛国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -38403,6 +38637,38 @@
       }
     },
     {
+      "name": "dsh-india",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-india",
+      "category": "github-discovery",
+      "description": {
+        "en": "印度国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-indium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-indium",
+      "category": "github-discovery",
+      "description": {
+        "en": "铟元素"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-indonesia",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-indonesia",
@@ -38416,6 +38682,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-inhg2hpa",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-inhg2hpa",
+      "category": "github-discovery",
+      "description": {
+        "en": "英寸汞柱转百帕"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -38483,6 +38765,38 @@
       }
     },
     {
+      "name": "dsh-is-perfect",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-is-perfect",
+      "category": "github-discovery",
+      "description": {
+        "en": "完全数判断"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-is-power-of-two",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-is-power-of-two",
+      "category": "github-discovery",
+      "description": {
+        "en": "2 的幂判断"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-is-square",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-is-square",
@@ -38512,6 +38826,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T10:42:42.995Z"
+      }
+    },
+    {
+      "name": "dsh-istanbul-city",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-istanbul-city",
+      "category": "github-discovery",
+      "description": {
+        "en": "伊斯坦布尔市"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-italy",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-italy",
+      "category": "github-discovery",
+      "description": {
+        "en": "意大利国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -38576,6 +38922,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-kazakhstan",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-kazakhstan",
+      "category": "github-discovery",
+      "description": {
+        "en": "哈萨克斯坦国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-kg2lb",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-kg2lb",
+      "category": "github-discovery",
+      "description": {
+        "en": "千克转磅"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -38755,6 +39133,54 @@
       }
     },
     {
+      "name": "dsh-latvia",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-latvia",
+      "category": "github-discovery",
+      "description": {
+        "en": "拉脱维亚国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-law-terms",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-law-terms",
+      "category": "github-discovery",
+      "description": {
+        "en": "法律术语"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-lawrencium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-lawrencium",
+      "category": "github-discovery",
+      "description": {
+        "en": "铹元素"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-lb2kg",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-lb2kg",
@@ -38928,6 +39354,86 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T10:42:42.995Z"
+      }
+    },
+    {
+      "name": "dsh-papua-guinea",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-papua-guinea",
+      "category": "github-discovery",
+      "description": {
+        "en": "巴布亚新几内亚国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-paraguay",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-paraguay",
+      "category": "github-discovery",
+      "description": {
+        "en": "巴拉圭国家"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-paris-city",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-paris-city",
+      "category": "github-discovery",
+      "description": {
+        "en": "巴黎市"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-parking-cost",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-parking-cost",
+      "category": "github-discovery",
+      "description": {
+        "en": "停车费计算"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-payroll-net",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-payroll-net",
+      "category": "github-discovery",
+      "description": {
+        "en": "税后工资计算器"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -41085,6 +41591,22 @@
       }
     },
     {
+      "name": "dsh-ai-ui-studio",
+      "owner": "wjinxuan",
+      "url": "https://github.com/wjinxuan/dsh-ai-ui-studio",
+      "category": "github-discovery",
+      "description": {
+        "en": "AI UI Studio — 在 DSH 里预览你的 Web 应用，用拖拽/点选/AI 流式有效调整前端样式并写回源码"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "kling-ai-deepseek-harness",
       "owner": "Wlain",
       "url": "https://github.com/Wlain/deepseek-plugin",
@@ -41505,51 +42027,19 @@
       "version": "0.1.1"
     },
     {
-      "name": "@dsh-plugin/dsh-review-loop",
-      "owner": "wuxiangru915",
-      "url": "https://github.com/wuxiangru915/dsh-plugins/tree/main/packages/dsh-review-loop",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness plugins by wuxiangru915"
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T18:48:40.122Z"
-      }
-    },
-    {
-      "name": "@dshwp/dsh-session-manager",
-      "owner": "wuxiangru915",
-      "url": "https://github.com/wuxiangru915/dsh-plugins/tree/main/packages/dsh-session-manager",
-      "category": "github-discovery",
-      "description": {
-        "en": "Session manager for the DeepSeek Harness web UI: browse all sessions, archive / unarchive (restore) / delete them, preview conversation content — from the Settings panel. · DSH 会话管理：设置页查看全部与已归档会话，归档 / 恢复 / 删除 / 内容预览。"
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T18:48:40.122Z"
-      }
-    },
-    {
       "name": "@dsh-plugin/dsh-session-navigator",
       "owner": "wuxiangru915",
-      "url": "https://github.com/wuxiangru915/dsh-plugins/tree/main/packages/dsh-session-navigator",
+      "url": "https://github.com/wuxiangru915/dsh-session-navigator",
       "category": "github-discovery",
       "description": {
         "en": "Session navigation minimap & outline for DeepSeek Harness web UI (Google AI Studio style side navigation) · DSH 会话导航插件：仿 Google AI Studio 侧边 Minimap、问题刻度与悬浮预览"
       },
       "stars": 0,
-      "added": "2026-09-13",
+      "added": "2026-09-29",
       "install": "",
       "discovery": {
         "status": "source-only",
-        "checkedAt": "2026-09-13T18:48:40.122Z"
+        "checkedAt": "2026-09-29T23:44:41.844Z"
       }
     },
     {
@@ -45435,6 +45925,22 @@
       }
     },
     {
+      "name": "dsh-voice-input-space",
+      "owner": "XSakura666",
+      "url": "https://github.com/XSakura666/dsh-voice-input-space",
+      "category": "github-discovery",
+      "description": {
+        "en": "Voice input for DeepSeek Harness: hold Space in any editable field to speak, release to insert the transcript at the caret. Zero dependencies, browser Web Speech API. / 语音输入：在输入框长按空格键说话，松开自动上屏。零依赖，基于浏览器 Web Speech API。"
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-deepseek-cost-live",
       "owner": "xtd1145",
       "url": "https://github.com/xtd1145/dsh-deepseek-cost-live",
@@ -46059,24 +46565,6 @@
       },
       "npm": "dsh-knj-menu",
       "version": "2026.9.12"
-    },
-    {
-      "name": "dsh-knj-prompts",
-      "owner": "yangdongzhen590",
-      "url": "https://github.com/yangdongzhen590/dsh-knj-prompts",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 提示词场景插件：下拉选场景 → 自动开新会话并填充提示词（支持 {变量}），微调即可发送"
-      },
-      "stars": 0,
-      "added": "2026-09-16",
-      "install": "dsh plugin --profile web add dsh-knj-prompts@2026.9.110",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-16T04:51:40.709Z"
-      },
-      "npm": "dsh-knj-prompts",
-      "version": "2026.9.110"
     },
     {
       "name": "dsh-plugin-dida365",
@@ -47461,24 +47949,6 @@
         "status": "source-only",
         "checkedAt": "2026-09-13T03:03:58.898Z"
       }
-    },
-    {
-      "name": "@mingworkbench/capability-pack",
-      "owner": "YuemingHub",
-      "url": "https://github.com/YuemingHub/Ming-Capability-Pack",
-      "category": "github-discovery",
-      "description": {
-        "en": "Ming 智能助手 - 用自然语言一键调用 Harness 原生能力，真正完成任务并产出文件"
-      },
-      "stars": 0,
-      "added": "2026-09-27",
-      "install": "dsh plugin --profile web add @mingworkbench/capability-pack@0.9.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-27T23:04:48.299Z"
-      },
-      "npm": "@mingworkbench/capability-pack",
-      "version": "0.9.0"
     },
     {
       "name": "dsh-slot-homestead",
@@ -49321,6 +49791,22 @@
       }
     },
     {
+      "name": "dsh-updater",
+      "owner": "zhuoxuanliu53-svg",
+      "url": "https://github.com/zhuoxuanliu53-svg/dsh-updater",
+      "category": "github-discovery",
+      "description": {
+        "en": "Small DSH Web GUI plugin to check and apply official DeepSeek Harness updates from a git checkout: view local vs origin/master, fast-forward to the official latest, and optionally rebuild. Shows an offline/unreachable state when the remote cannot be reached. Hot-pluggable - mounted via the web profile without touching dsh source."
+      },
+      "stars": 0,
+      "added": "2026-09-29",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
       "name": "dsh-call-shrink",
       "owner": "zhuzichen362",
       "url": "https://github.com/zhuzichen362/dsh-call-shrink",
@@ -50104,8 +50590,8 @@
   "discovery": {
     "version": 1,
     "topic": "dsh-plugin",
-    "total": 16439,
-    "checked": 3243,
+    "total": 16338,
+    "checked": 3275,
     "complete": false
   }
 }
