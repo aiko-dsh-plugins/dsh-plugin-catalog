@@ -2,6 +2,8 @@
 
 The public `aiko-dsh-plugin-catalog` package lists the npm package names allowed in the Aiko market. Plugin releases own their versions, descriptions, guides, screenshots and compatibility declarations.
 
+The [Aiko DSH repository map](https://github.com/aiko-dsh-plugins/aiko-dsh-workbench/blob/main/docs/repository-map.md) explains this directory's place beside the private Host, Workbench, and Workspace repositories. Aiko and Yunyao use the same package membership; their profile templates and theme selection live in Workbench, not in this catalog.
+
 ## Use the directory
 
 Aiko Market 1.39.0 or later reads this schema through `additionalRegistryPackages: [aiko-dsh-plugin-catalog]`. The directory contains no executable plugin code.
@@ -31,15 +33,9 @@ Schema 2 requires the updated market. Existing desktop installations also need t
 
 ## Source and distribution
 
-| Component | Private source repository | Public distribution |
-|---|---|---|
-| Desktop | `aiko-dsh-plugins/deepseek-harness-source` | [Mac client releases](https://github.com/aiko-dsh-plugins/deepseek-harness/releases) |
-| Market | `aiko-dsh-plugins/dsh-market-source` | `aiko-dsh-market` on npm |
-| Office | `aiko-dsh-plugins/dsh-office-source` | `aiko-dsh-office` on npm |
-| Bid Studio | `aiko-dsh-plugins/dsh-bid-studio-source` | `aiko-dsh-bid-studio` on npm |
-| Ontology Kernel | `aiko-dsh-plugins/dsh-ontology-kernel-source` | `aiko-dsh-ontology-kernel` on npm |
+`plugins-npm.json` is the source for this package's membership list; `scripts/build-npm.mjs` generates the publishable `dist/` archive and `tests/` checks the schema and integrity. The DSH 0.2 market integration and its pinned directory copy are maintained in [Workbench `modules/market` and `modules/plugin-catalog`](https://github.com/aiko-dsh-plugins/aiko-dsh-workbench/tree/codex/desktop-account-launcher/modules). Synchronize a membership change there when preparing that product's next build.
 
-Publish checked artifacts from private source, then verify anonymous npm metadata, download integrity and installation. Source commits remain private. Runtime JavaScript, Python and required resources in public npm artifacts remain inspectable. Public plugin repository access is unnecessary.
+The former `dsh-market-source` and `dsh-office-source` GitHub remotes are unavailable. Market integration source is in Workbench; official DSH Office skills are selected by the Host profile. The retained private `dsh-bid-studio-source` and `dsh-ontology-kernel-source` repositories maintain their older npm compatibility line. A catalog entry is not evidence that a particular plugin version works with the current Host: inspect that package's compatibility metadata and validate an installation before release.
 
 ## License
 
