@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T15:35:21.050Z",
-  "count": 4169,
+  "updated": "2026-10-07T21:20:38.360Z",
+  "count": 4220,
   "categories": {
     "github-discovery": {
       "en": "GitHub community",
@@ -11087,6 +11087,22 @@
       }
     },
     {
+      "name": "dsh-workspace-default-dir",
+      "owner": "dragan2023",
+      "url": "https://github.com/dragan2023/dsh-workspace-default-dir",
+      "category": "github-discovery",
+      "description": {
+        "en": "Set the default initial directory of dsh's workspace directory picker (native + browse backends), with a GUI settings card. 设置 dsh「添加工作区」目录选择器的默认初始目录（含 GUI 设置卡片）。"
+      },
+      "stars": 1,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-prompt-customizer",
       "owner": "DreamsTOF",
       "url": "https://github.com/DreamsTOF/dsh-prompt-customizer",
@@ -11376,6 +11392,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-25T13:49:53.923Z"
+      }
+    },
+    {
+      "name": "dsh-deepseek-balance-query",
+      "owner": "dumbnessrf",
+      "url": "https://github.com/dumbnessrf/dsh-deepseek-balance-query",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 客户端插件：在侧边栏一键查询 DeepSeek（sk 开头）API Key 的账户余额。Key 仅在浏览器内直连 api.deepseek.com，不会经过本机服务。"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -19193,22 +19225,6 @@
       "version": "3.1.0"
     },
     {
-      "name": "dsh-model-info-hint",
-      "owner": "jackie2455",
-      "url": "https://github.com/jackie2455/dsh-model-info-hint",
-      "category": "github-discovery",
-      "description": {
-        "en": "Show a hover hint with a model's full configuration (input types, context window, max tokens, protocol, base URL, credential env, …) over each model in the DeepSeek Harness web model picker, read from ~/.dsh/settings.yaml."
-      },
-      "stars": 1,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T13:20:04.040Z"
-      }
-    },
-    {
       "name": "@richie.liu/dsh-hybrid-coder",
       "owner": "jackiesre721",
       "url": "https://github.com/jackiesre721/dsh-hybrid-coder",
@@ -25927,6 +25943,22 @@
       "version": "0.3.7"
     },
     {
+      "name": "dsh-whale-lap",
+      "owner": "Linzr-lly",
+      "url": "https://github.com/Linzr-lly/dsh-whale-lap",
+      "category": "github-discovery",
+      "description": {
+        "en": "趴趴鲸鱼娘 —— 一只趴在 DeepSeek Harness 对话框上的二次元鲸鱼娘桌宠：手绘 SVG、灵动动态、零外部依赖。"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-external-links",
       "owner": "Lion-Li-git",
       "url": "https://github.com/Lion-Li-git/dsh-external-links",
@@ -32159,6 +32191,24 @@
       "version": "0.5.12"
     },
     {
+      "name": "dsh-llm-assistant",
+      "owner": "NOirBRight",
+      "url": "https://github.com/NOirBRight/dsh-llm-assistant",
+      "category": "github-discovery",
+      "description": {
+        "en": "Resident DeepSeek assistant seat for DeepSeek Harness: chat, reminders, and on-demand read-only task reference"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "dsh plugin --profile web add dsh-llm-assistant@https://github.com/NOirBRight/dsh-llm-assistant/releases/download/v0.1.5/dsh-llm-assistant-0.1.5.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      },
+      "tarball": "https://github.com/NOirBRight/dsh-llm-assistant/releases/download/v0.1.5/dsh-llm-assistant-0.1.5.tgz",
+      "version": "0.1.5"
+    },
+    {
       "name": "dsh-model-switch",
       "owner": "NOirBRight",
       "url": "https://github.com/NOirBRight/dsh-model-switch",
@@ -34016,22 +34066,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-adrian-inject-context",
-      "owner": "polohot",
-      "url": "https://github.com/polohot/dsh-adrian-inject-context",
-      "category": "github-discovery",
-      "description": {
-        "en": "Inject Context for DeepSeek Harness (DSH): persist your own context entries and inject them as a standalone 'Remember:' row — right after your message — per turn or once per session (per-entry 'Every turn' switch). Simple/Advanced datasets, native Settings editor, standalone manager page."
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T13:20:04.040Z"
       }
     },
     {
@@ -40455,22 +40489,6 @@
       }
     },
     {
-      "name": "dsh-remote-ssh-tools",
-      "owner": "Sycada",
-      "url": "https://github.com/Sycada/dsh-remote-ssh-tools",
-      "category": "github-discovery",
-      "description": {
-        "en": "SSH session manager for DeepSeek Harness: connection profiles, non-interactive ssh_run for the agent, and interactive terminals (node-pty + OpenSSH, xterm over WebSocket)."
-      },
-      "stars": 1,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T04:50:25.705Z"
-      }
-    },
-    {
       "name": "dsh-platform-account-manager-plugin",
       "owner": "sycamorestr",
       "url": "https://github.com/sycamorestr/dsh-platform-account-manager-plugin",
@@ -41527,24 +41545,6 @@
         "status": "source-only",
         "checkedAt": "2026-09-13T22:26:15.429Z"
       }
-    },
-    {
-      "name": "dsh-image-preview",
-      "owner": "tianxia--",
-      "url": "https://github.com/tianxia--/Dsh-ImageProview",
-      "category": "github-discovery",
-      "description": {
-        "en": "Inline previews for the images an agent already produced in DeepSeek Harness: read_image attachments and local paths in any format (HEIC/TIFF/PSD/SVG/BMP/ICO/TGA/PNM/JP2 …), rendered through the official gallery and lightbox."
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "dsh plugin --profile web add dsh-image-preview@https://github.com/tianxia--/Dsh-ImageProview/releases/download/v0.2.0/dsh-image-preview-0.2.0.tgz",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-13T03:03:58.898Z"
-      },
-      "tarball": "https://github.com/tianxia--/Dsh-ImageProview/releases/download/v0.2.0/dsh-image-preview-0.2.0.tgz",
-      "version": "0.2.0"
     },
     {
       "name": "dsh-chat-enhancer",
@@ -42609,6 +42609,22 @@
       }
     },
     {
+      "name": "dsh-ad-roi",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ad-roi",
+      "category": "github-discovery",
+      "description": {
+        "en": "广告ROI计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-adult-vaccine",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-adult-vaccine",
@@ -43022,6 +43038,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-04T23:12:29.057Z"
+      }
+    },
+    {
+      "name": "dsh-annual-leave",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-annual-leave",
+      "category": "github-discovery",
+      "description": {
+        "en": "年假计算器"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -43486,6 +43518,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-01T05:57:31.232Z"
+      }
+    },
+    {
+      "name": "dsh-baby-milk",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-baby-milk",
+      "category": "github-discovery",
+      "description": {
+        "en": "宝宝奶量估算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -43982,6 +44030,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-03T23:06:15.394Z"
+      }
+    },
+    {
+      "name": "dsh-benin",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-benin",
+      "category": "github-discovery",
+      "description": {
+        "en": "贝宁国"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -45073,6 +45137,22 @@
       }
     },
     {
+      "name": "dsh-burkina-faso",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-burkina-faso",
+      "category": "github-discovery",
+      "description": {
+        "en": "布基纳法索国"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-burn-aid",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-burn-aid",
@@ -45505,6 +45585,22 @@
       }
     },
     {
+      "name": "dsh-car",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-car",
+      "category": "github-discovery",
+      "description": {
+        "en": "中非共和国国"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-car-seat",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-car-seat",
@@ -45569,6 +45665,22 @@
       }
     },
     {
+      "name": "dsh-cet-pass",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-cet-pass",
+      "category": "github-discovery",
+      "description": {
+        "en": "四六级过线判断"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-cet-score",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-cet-score",
@@ -45582,6 +45694,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-05T05:43:53.359Z"
+      }
+    },
+    {
+      "name": "dsh-chad",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-chad",
+      "category": "github-discovery",
+      "description": {
+        "en": "乍得国"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -46065,6 +46193,22 @@
       }
     },
     {
+      "name": "dsh-cocktail-ratio",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-cocktail-ratio",
+      "category": "github-discovery",
+      "description": {
+        "en": "调酒比例"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-cold-drink",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-cold-drink",
@@ -46129,6 +46273,22 @@
       }
     },
     {
+      "name": "dsh-compound-interest",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-compound-interest",
+      "category": "github-discovery",
+      "description": {
+        "en": "复利计算器"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-concurrency",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-concurrency",
@@ -46174,6 +46334,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-01T05:57:31.232Z"
+      }
+    },
+    {
+      "name": "dsh-consumer-loan",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-consumer-loan",
+      "category": "github-discovery",
+      "description": {
+        "en": "消费贷月供"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-contract-unlimited",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-contract-unlimited",
+      "category": "github-discovery",
+      "description": {
+        "en": "无固定期限合同判断"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -46446,6 +46638,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T05:40:21.663Z"
+      }
+    },
+    {
+      "name": "dsh-crop-factor",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-crop-factor",
+      "category": "github-discovery",
+      "description": {
+        "en": "等效焦距换算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -47521,6 +47729,22 @@
       }
     },
     {
+      "name": "dsh-dough-hydration",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-dough-hydration",
+      "category": "github-discovery",
+      "description": {
+        "en": "面团含水量"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-dough-mix",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-dough-mix",
@@ -47873,6 +48097,38 @@
       }
     },
     {
+      "name": "dsh-ev-vs-fuel",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ev-vs-fuel",
+      "category": "github-discovery",
+      "description": {
+        "en": "油车电车成本对比"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-exam-timing",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-exam-timing",
+      "category": "github-discovery",
+      "description": {
+        "en": "考试时间分配"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-exercise-calories",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-exercise-calories",
@@ -48174,6 +48430,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-03T13:24:40.046Z"
+      }
+    },
+    {
+      "name": "dsh-flash-gn",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-flash-gn",
+      "category": "github-discovery",
+      "description": {
+        "en": "闪光灯GN计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-flight-luggage",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-flight-luggage",
+      "category": "github-discovery",
+      "description": {
+        "en": "行李额度参考"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -48705,6 +48993,22 @@
       }
     },
     {
+      "name": "dsh-fx-convert",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-fx-convert",
+      "category": "github-discovery",
+      "description": {
+        "en": "汇率换算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-fx-live",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-fx-live",
@@ -49150,6 +49454,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-04T03:11:24.766Z"
+      }
+    },
+    {
+      "name": "dsh-gpa-calc",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-gpa-calc",
+      "category": "github-discovery",
+      "description": {
+        "en": "GPA换算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -49694,6 +50014,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-30T05:35:06.717Z"
+      }
+    },
+    {
+      "name": "dsh-heart-rate",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-heart-rate",
+      "category": "github-discovery",
+      "description": {
+        "en": "运动心率区间"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -50590,6 +50926,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-inventory-turnover",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-inventory-turnover",
+      "category": "github-discovery",
+      "description": {
+        "en": "库存周转"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -51697,6 +52049,22 @@
       }
     },
     {
+      "name": "dsh-listing-price",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-listing-price",
+      "category": "github-discovery",
+      "description": {
+        "en": "定价策略"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-literature-terms",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-literature-terms",
@@ -51902,6 +52270,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T14:45:49.265Z"
+      }
+    },
+    {
+      "name": "dsh-mandarin-grade",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-mandarin-grade",
+      "category": "github-discovery",
+      "description": {
+        "en": "普通话等级"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -52177,6 +52561,38 @@
       }
     },
     {
+      "name": "dsh-mortgage-equal-installment",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-mortgage-equal-installment",
+      "category": "github-discovery",
+      "description": {
+        "en": "等额本息房贷计算器"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-mortgage-equal-principal",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-mortgage-equal-principal",
+      "category": "github-discovery",
+      "description": {
+        "en": "等额本金房贷计算器"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-motor-current",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-motor-current",
@@ -52369,6 +52785,22 @@
       }
     },
     {
+      "name": "dsh-nd-filter",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-nd-filter",
+      "category": "github-discovery",
+      "description": {
+        "en": "ND滤镜快门计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-negotiation",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-negotiation",
@@ -52494,6 +52926,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-01T15:28:39.890Z"
+      }
+    },
+    {
+      "name": "dsh-noncompete-pay",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-noncompete-pay",
+      "category": "github-discovery",
+      "description": {
+        "en": "竞业限制补偿"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -52641,6 +53089,22 @@
       }
     },
     {
+      "name": "dsh-option-intrinsic",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-option-intrinsic",
+      "category": "github-discovery",
+      "description": {
+        "en": "期权内在价值"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-order-plan",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-order-plan",
@@ -52718,6 +53182,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T05:40:21.663Z"
+      }
+    },
+    {
+      "name": "dsh-overtime-pay",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-overtime-pay",
+      "category": "github-discovery",
+      "description": {
+        "en": "加班费计算器"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -53555,6 +54035,22 @@
       }
     },
     {
+      "name": "dsh-pizza-size",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-pizza-size",
+      "category": "github-discovery",
+      "description": {
+        "en": "披萨尺寸换算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-plateau",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-plateau",
@@ -54115,6 +54611,22 @@
       }
     },
     {
+      "name": "dsh-print-dpi",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-print-dpi",
+      "category": "github-discovery",
+      "description": {
+        "en": "打印尺寸计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-privacy-check",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-privacy-check",
@@ -54176,6 +54688,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-04T03:11:24.766Z"
+      }
+    },
+    {
+      "name": "dsh-protein-intake",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-protein-intake",
+      "category": "github-discovery",
+      "description": {
+        "en": "蛋白质摄入计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -54499,6 +55027,22 @@
       }
     },
     {
+      "name": "dsh-revenue-plan",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-revenue-plan",
+      "category": "github-discovery",
+      "description": {
+        "en": "销售目标拆解"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-rice-cooker",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-rice-cooker",
@@ -54512,6 +55056,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-01T21:03:10.687Z"
+      }
+    },
+    {
+      "name": "dsh-rice-water",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-rice-water",
+      "category": "github-discovery",
+      "description": {
+        "en": "煮饭米水比"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -54560,6 +55120,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-05T05:43:53.359Z"
+      }
+    },
+    {
+      "name": "dsh-roast-time",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-roast-time",
+      "category": "github-discovery",
+      "description": {
+        "en": "烤箱时间估算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -54672,6 +55248,54 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T14:45:49.265Z"
+      }
+    },
+    {
+      "name": "dsh-running-pace",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-running-pace",
+      "category": "github-discovery",
+      "description": {
+        "en": "跑步配速计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-safe-shutter",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-safe-shutter",
+      "category": "github-discovery",
+      "description": {
+        "en": "安全快门"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-salary-deduction-limit",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-salary-deduction-limit",
+      "category": "github-discovery",
+      "description": {
+        "en": "工资扣除限额"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -54979,6 +55603,38 @@
       }
     },
     {
+      "name": "dsh-severance-pay",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-severance-pay",
+      "category": "github-discovery",
+      "description": {
+        "en": "经济补偿金计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-shipping-fee",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-shipping-fee",
+      "category": "github-discovery",
+      "description": {
+        "en": "运费计算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-shoe-rack",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-shoe-rack",
@@ -55027,6 +55683,22 @@
       }
     },
     {
+      "name": "dsh-sick-leave-pay",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-sick-leave-pay",
+      "category": "github-discovery",
+      "description": {
+        "en": "病假工资"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-skin-type",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-skin-type",
@@ -55056,6 +55728,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-04T23:12:29.057Z"
+      }
+    },
+    {
+      "name": "dsh-sleep-cycle",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-sleep-cycle",
+      "category": "github-discovery",
+      "description": {
+        "en": "睡眠周期入睡建议"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -55507,6 +56195,22 @@
       }
     },
     {
+      "name": "dsh-study-plan",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-study-plan",
+      "category": "github-discovery",
+      "description": {
+        "en": "备考时间分配"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-sub-audit",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-sub-audit",
@@ -55667,6 +56371,22 @@
       }
     },
     {
+      "name": "dsh-taxi-fare",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-taxi-fare",
+      "category": "github-discovery",
+      "description": {
+        "en": "打车费估算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-tea-pick",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-tea-pick",
@@ -55779,6 +56499,22 @@
       }
     },
     {
+      "name": "dsh-timezone-diff",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-timezone-diff",
+      "category": "github-discovery",
+      "description": {
+        "en": "时差换算"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-tip-calc",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-tip-calc",
@@ -55856,6 +56592,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-05T05:43:53.359Z"
+      }
+    },
+    {
+      "name": "dsh-togo",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-togo",
+      "category": "github-discovery",
+      "description": {
+        "en": "多哥国"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -55939,6 +56691,22 @@
       }
     },
     {
+      "name": "dsh-train-refund",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-train-refund",
+      "category": "github-discovery",
+      "description": {
+        "en": "火车票退改费"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-travel-docs",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-travel-docs",
@@ -55984,6 +56752,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-04T23:12:29.057Z"
+      }
+    },
+    {
+      "name": "dsh-treasury-yield",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-treasury-yield",
+      "category": "github-discovery",
+      "description": {
+        "en": "国债收益率"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -56064,6 +56848,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T05:40:21.663Z"
+      }
+    },
+    {
+      "name": "dsh-unemployment-period",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-unemployment-period",
+      "category": "github-discovery",
+      "description": {
+        "en": "失业金领取期限"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -56546,6 +57346,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-01T15:28:39.890Z"
+      }
+    },
+    {
+      "name": "dsh-water-intake",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-water-intake",
+      "category": "github-discovery",
+      "description": {
+        "en": "每日饮水量"
+      },
+      "stars": 0,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
       }
     },
     {
@@ -58333,6 +59149,22 @@
       }
     },
     {
+      "name": "dsh-matlab",
+      "owner": "weijianguizhou",
+      "url": "https://github.com/weijianguizhou/dsh-matlab",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin: matlab.run tool — run MATLAB code via matlab -batch and return output plus saved figures."
+      },
+      "stars": 1,
+      "added": "2026-10-07",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
       "name": "dsh-command-skill-list",
       "owner": "weilantianhai",
       "url": "https://github.com/weilantianhai/dsh-command-skill-list",
@@ -59075,22 +59907,6 @@
       }
     },
     {
-      "name": "dsh-git-auth",
-      "owner": "Wisdoverse",
-      "url": "https://github.com/Wisdoverse/dsh-git-auth-plugin",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH host tool bundle: manage glab / gh authorization and SSH keys"
-      },
-      "stars": 0,
-      "added": "2026-09-14",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-14T20:19:37.021Z"
-      }
-    },
-    {
       "name": "dsh-freeweb",
       "owner": "Wiselfx",
       "url": "https://github.com/Wiselfx/dsh-freeweb",
@@ -59233,24 +60049,6 @@
         "status": "source-only",
         "checkedAt": "2026-09-20T04:56:20.117Z"
       }
-    },
-    {
-      "name": "@wlv-zedd/dsh-btw-plugin",
-      "owner": "WLV-ZEDD",
-      "url": "https://github.com/WLV-ZEDD/dsh-btw",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness Side-Assistant Dock (/btw command)"
-      },
-      "stars": 1,
-      "added": "2026-09-14",
-      "install": "dsh plugin --profile web add @wlv-zedd/dsh-btw-plugin@1.0.5",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-14T04:59:22.238Z"
-      },
-      "npm": "@wlv-zedd/dsh-btw-plugin",
-      "version": "1.0.5"
     },
     {
       "name": "dsh-ide-ipc",
@@ -63623,6 +64421,24 @@
         "status": "source-only",
         "checkedAt": "2026-09-25T20:02:25.422Z"
       }
+    },
+    {
+      "name": "dsh-subscription-media-suite",
+      "owner": "xisheng687",
+      "url": "https://github.com/xisheng687/dsh-grok-subscription",
+      "category": "github-discovery",
+      "description": {
+        "en": "Connect an official Grok subscription to DSH as an ACP subagent, extending its native image support with audio and video tools."
+      },
+      "stars": 1,
+      "added": "2026-10-07",
+      "install": "dsh plugin --profile web add dsh-subscription-media-suite@https://github.com/xisheng687/dsh-grok-subscription/releases/download/v0.3.0/dsh-subscription-media-suite-0.3.0.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-07T21:19:57.515Z"
+      },
+      "tarball": "https://github.com/xisheng687/dsh-grok-subscription/releases/download/v0.3.0/dsh-subscription-media-suite-0.3.0.tgz",
+      "version": "0.3.0"
     },
     {
       "name": "dsh-auto-approve",
@@ -69006,8 +69822,8 @@
   "discovery": {
     "version": 1,
     "topic": "dsh-plugin",
-    "total": 17986,
-    "checked": 4423,
+    "total": 18008,
+    "checked": 4477,
     "complete": false
   }
 }
