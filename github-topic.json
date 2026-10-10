@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10T14:29:48.324Z",
-  "count": 4568,
+  "updated": "2026-10-10T20:05:49.405Z",
+  "count": 4605,
   "categories": {
     "github-discovery": {
       "en": "GitHub community",
@@ -145,6 +145,24 @@
         "status": "source-only",
         "checkedAt": "2026-09-24T13:34:50.116Z"
       }
+    },
+    {
+      "name": "dsh-okf",
+      "owner": "1-CellBio",
+      "url": "https://github.com/1-CellBio/dsh-okf",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin: ingest PDFs into a citable OKF library, then search and write surveys in the same conversation"
+      },
+      "stars": 3,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-okf@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-okf",
+      "version": "0.1.0"
     },
     {
       "name": "dsh-theme-minecraft",
@@ -487,6 +505,24 @@
         "status": "source-only",
         "checkedAt": "2026-10-09T15:19:54.785Z"
       }
+    },
+    {
+      "name": "dsh-mac-control",
+      "owner": "18126295767-cell",
+      "url": "https://github.com/18126295767-cell/dsh-mac-control",
+      "category": "github-discovery",
+      "description": {
+        "en": "Local browser and macOS desktop controls for DeepSeek Harness"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-mac-control@https://github.com/18126295767-cell/dsh-mac-control/releases/download/v0.1.0/dsh-mac-control-0.1.0.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "tarball": "https://github.com/18126295767-cell/dsh-mac-control/releases/download/v0.1.0/dsh-mac-control-0.1.0.tgz",
+      "version": "0.1.0"
     },
     {
       "name": "dsh-harness-chat-control",
@@ -1020,6 +1056,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-25T20:02:25.422Z"
+      }
+    },
+    {
+      "name": "dsh-chat-width",
+      "owner": "764475881",
+      "url": "https://github.com/764475881/dsh-chat-width",
+      "category": "github-discovery",
+      "description": {
+        "en": "调宽 dsh 网页会话区的聊天内容宽度（默认 748px → 1040px；右缘把手拖拽可调，控制台 __setChatWidth(px) 亦可）"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -1915,6 +1967,38 @@
       }
     },
     {
+      "name": "dsh-auto-review",
+      "owner": "accpowered",
+      "url": "https://github.com/accpowered/dsh-auto-review",
+      "category": "github-discovery",
+      "description": {
+        "en": "LLM auto-review approval answerer for DeepSeek Harness — decides sandbox escalations without a human prompt via a deterministic filter and a clean-context LLM safety review. REQUIRES a patched harness core (see core-patches/)"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
+      "name": "dsh-credential-manager",
+      "owner": "accpowered",
+      "url": "https://github.com/accpowered/dsh-credential-manager",
+      "category": "github-discovery",
+      "description": {
+        "en": "Named user credentials for DeepSeek Harness: model-facing credential tools, secrets behind the ctx.credentials seam, DSH_CM_* shell variables, and a Settings → Credentials page"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-git-sidebar",
       "owner": "Adamaik",
       "url": "https://github.com/Adamaik/dsh-git-sidebar",
@@ -2021,6 +2105,22 @@
       "version": "0.9.20"
     },
     {
+      "name": "dsh-agent-preset-switcher",
+      "owner": "aefuimn",
+      "url": "https://github.com/aefuimn/dsh-agent-preset-switcher",
+      "category": "github-discovery",
+      "description": {
+        "en": "Hot-switch agent presets (working modes) inside a running DSH session: mode changes are armed immediately and applied at the next step boundary through agentPresets.recompose, via the /mode slash command."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "@aetheri-ai/dsh-show-image",
       "owner": "Aetheri-AI",
       "url": "https://github.com/Aetheri-AI/dsh-plugins/tree/master/packages/show-image",
@@ -2107,6 +2207,42 @@
       },
       "tarball": "https://github.com/agent-mobile/dsh-speech/releases/download/v0.4.0/dsh-speech-0.4.0.tgz",
       "version": "0.4.0"
+    },
+    {
+      "name": "@agentvalet/dsh",
+      "owner": "AgentValet",
+      "url": "https://github.com/AgentValet/dsh-agentvalet",
+      "category": "github-discovery",
+      "description": {
+        "en": "Governed platform access for DeepSeek Harness — no credential on the machine"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add @agentvalet/dsh@0.1.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "@agentvalet/dsh",
+      "version": "0.1.1"
+    },
+    {
+      "name": "dsh-agora",
+      "owner": "AgoraIO-Community",
+      "url": "https://github.com/AgoraIO-Community/dsh-agora",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH skill bundle: the Agora skill (RTC, RTM, ConvoAI, CLI, Cloud Recording, tokens) synced verbatim from AgoraIO/skills at a pinned release tag. Install to add the `agora` skill to DeepSeek Harness."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-agora@0.2.8",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-agora",
+      "version": "0.2.8"
     },
     {
       "name": "dsh-ai-council",
@@ -2272,6 +2408,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-12T04:37:48.011Z"
+      }
+    },
+    {
+      "name": "dsh-enter-lock",
+      "owner": "AIFireForAll",
+      "url": "https://github.com/AIFireForAll/dsh-enter-lock",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin that locks the web chat composer Enter-send. Toggle with a lock button or Ctrl+Shift+K to prevent accidental sends while typing or editing long prompts; unlock to send. IME-safe and per-session."
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -2921,6 +3073,24 @@
       },
       "npm": "dsh-dispatch",
       "version": "0.4.0"
+    },
+    {
+      "name": "dsh-ui-enhancer",
+      "owner": "AlexYin-Tongji",
+      "url": "https://github.com/AlexYin-Tongji/dsh-ui-enhancer",
+      "category": "github-discovery",
+      "description": {
+        "en": "A desktop-style workspace, wallpaper, pet, and file-reference UI for DeepSeek Harness"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-ui-enhancer@0.2.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-ui-enhancer",
+      "version": "0.2.0"
     },
     {
       "name": "dsh-cron-scheduler",
@@ -3592,6 +3762,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-15T13:35:28.601Z"
+      }
+    },
+    {
+      "name": "@angel-gp/dsh-client-ui-gitpeek",
+      "owner": "Angel-GP",
+      "url": "https://github.com/Angel-GP/dsh-gitpeek",
+      "category": "github-discovery",
+      "description": {
+        "en": "只读的 GitHub 数据查看面板：Actions 运行、Commits、Releases 三列并排，作为 DSH 会话的第三个标签页。"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -5119,6 +5305,22 @@
       }
     },
     {
+      "name": "dsh-topbar-manager",
+      "owner": "baihejiangnan",
+      "url": "https://github.com/baihejiangnan/dsh-topbar-manager",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness Web 顶部按钮管理器：检查并开关插件添加的顶部工具栏按钮。"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "a2ui-render-in-dsh",
       "owner": "baihui-ai",
       "url": "https://github.com/baihui-ai/a2ui-render-in-dsh",
@@ -5884,6 +6086,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-17T19:44:32.738Z"
+      }
+    },
+    {
+      "name": "dsh-balance-tasks",
+      "owner": "Bil812",
+      "url": "https://github.com/Bil812/dsh-balance-tasks",
+      "category": "github-discovery",
+      "description": {
+        "en": "余额与任务数换算：右下角悬浮卡显示 DeepSeek 账户余额、当前峰谷档位与倒计时，并按历史平均消耗估算「余额还能跑多少个任务」（1 任务 ≈ 1 会话，含峰谷计价）"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -7808,6 +8026,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-22T13:26:22.743Z"
+      }
+    },
+    {
+      "name": "dsh-unidoc",
+      "owner": "Che-Year",
+      "url": "https://github.com/Che-Year/dsh-unidoc",
+      "category": "github-discovery",
+      "description": {
+        "en": "通用文档中心（Universal Document Center）— DeepSeek Harness 文档预览/编辑/管理插件（静态包形态：lib/index.js host 外壳 + lib/client.js 浏览器 bundle）"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -10375,6 +10609,24 @@
       }
     },
     {
+      "name": "dsh-workspace",
+      "owner": "deepseek-dsh",
+      "url": "https://github.com/deepseek-dsh/dsh-workspace",
+      "category": "github-discovery",
+      "description": {
+        "en": "Harness UI enhancement with usage summary, project files, and Git diff previews"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-workspace@https://github.com/deepseek-dsh/dsh-workspace/releases/download/v0.1.0/dsh-workspace-0.1.0.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "tarball": "https://github.com/deepseek-dsh/dsh-workspace/releases/download/v0.1.0/dsh-workspace-0.1.0.tgz",
+      "version": "0.1.0"
+    },
+    {
       "name": "dsh-screenshot-plugin",
       "owner": "deepseekbluefish",
       "url": "https://github.com/deepseekbluefish/dsh-screenshot-plugin",
@@ -10907,6 +11159,22 @@
       },
       "npm": "dsh-win-multi-bash",
       "version": "0.4.0"
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-memory",
+      "owner": "disc0nct",
+      "url": "https://github.com/disc0nct/dsh-memory-plugin",
+      "category": "github-discovery",
+      "description": {
+        "en": "A persistent memory plugin for DeepSeek Harness that enables agents to store and recall information across sessions — DSH-native tools with atomic storage, validation, and concurrency-safe reads"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
     },
     {
       "name": "dsh-consult",
@@ -11579,6 +11847,24 @@
       },
       "npm": "dsh-thinking-levels",
       "version": "4.2.0-beta.29"
+    },
+    {
+      "name": "dsh-agent-observe",
+      "owner": "dsh-plugin-evaluation",
+      "url": "https://github.com/dsh-plugin-evaluation/dsh-agent-observe",
+      "category": "github-discovery",
+      "description": {
+        "en": "Agent observability plugin for DSH — behavior audit, cost tracking, anomaly detection"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-agent-observe@0.1.5",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-agent-observe",
+      "version": "0.1.5"
     },
     {
       "name": "@dsh-plugin/dsh-approve-for-me",
@@ -13387,6 +13673,24 @@
       "version": "0.2.0"
     },
     {
+      "name": "@eya46/dsh-plugin-info",
+      "owner": "eya46",
+      "url": "https://github.com/eya46/dsh-plugins/tree/main/packages/dsh-plugin-info",
+      "category": "github-discovery",
+      "description": {
+        "en": "List profile-added DSH plugins, mark available updates, and show recent version notes"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add @eya46/dsh-plugin-info@0.1.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "@eya46/dsh-plugin-info",
+      "version": "0.1.1"
+    },
+    {
       "name": "dsh-codex",
       "owner": "f0rbidden4o3",
       "url": "https://github.com/f0rbidden4o3/dsh-codex",
@@ -13759,6 +14063,22 @@
       },
       "npm": "dsh-chinese-skill-patch",
       "version": "0.1.2"
+    },
+    {
+      "name": "@feather_wch/dsh-plugin-ui-debug",
+      "owner": "FeatherHunter",
+      "url": "https://github.com/FeatherHunter/dsh-plugin-ui-debug",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 插件 UI 调试神器：让 AI 在真实 Chrome（Playwright）中自动看界面、点按钮、拖组件，一键安装零配置"
+      },
+      "stars": 7,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
     },
     {
       "name": "dsh-subagent-codex-plus",
@@ -15488,6 +15808,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-07T06:02:53.500Z"
+      }
+    },
+    {
+      "name": "dsh-cordis-mcp",
+      "owner": "GeekRicardo",
+      "url": "https://github.com/GeekRicardo/dsh-cordis-mcp",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness 插件：把 DSH 的动态 Cordis 工具集（inspect/define/run/stop/undefine）以 MCP 暴露给 Claude Code。端点强制身份认证，token 可在 DSH 设置页配置。"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -17933,6 +18269,24 @@
       }
     },
     {
+      "name": "dsh-grayprint",
+      "owner": "HongzhongL",
+      "url": "https://github.com/HongzhongL/dsh-grayprint",
+      "category": "github-discovery",
+      "description": {
+        "en": "GrayPrint — live reasoning-style fingerprints for the DeepSeek Harness web chat. Compares grayscale-vs-current writing style by internal reasoning paragraphs and independently tracks Let me exploratory openers versus We need planning openers."
+      },
+      "stars": 3,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-grayprint@https://github.com/HongzhongL/dsh-grayprint/releases/download/v0.4.0/dsh-grayprint-0.4.0.tgz",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "tarball": "https://github.com/HongzhongL/dsh-grayprint/releases/download/v0.4.0/dsh-grayprint-0.4.0.tgz",
+      "version": "0.4.0"
+    },
+    {
       "name": "dsh-input-assist",
       "owner": "honlnk",
       "url": "https://github.com/honlnk/dsh-input-assist",
@@ -19821,6 +20175,24 @@
       }
     },
     {
+      "name": "dsh-dev-crew",
+      "owner": "ivanon",
+      "url": "https://github.com/ivanon/dsh-dev-crew",
+      "category": "github-discovery",
+      "description": {
+        "en": "A DeepSeek Harness plugin that mounts one subagent delegation tool per configured role and model, each bound to its own model provider route."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-dev-crew@0.1.12",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-dev-crew",
+      "version": "0.1.12"
+    },
+    {
       "name": "dsh-balance-pill",
       "owner": "ivbrajkovic",
       "url": "https://github.com/ivbrajkovic/dsh-balance-pill",
@@ -20219,6 +20591,22 @@
       "version": "0.3.1"
     },
     {
+      "name": "dsh-computer-use",
+      "owner": "JasonWei04",
+      "url": "https://github.com/JasonWei04/dsh-computer-use",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 电脑操作插件（web_ui 家族框架）：截屏/录屏 + Xiaomi MIMO 视觉分析 + 真实鼠标键盘/窗口/程序控制 + computer_use 自主循环，临时截图与录屏帧自动清理。"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-plugin-market",
       "owner": "JasperGuWP",
       "url": "https://github.com/JasperGuWP/dsh-plugin-market",
@@ -20489,6 +20877,24 @@
       },
       "npm": "dsh-request-privacy",
       "version": "0.4.1-rc.1"
+    },
+    {
+      "name": "dsh-paste-path",
+      "owner": "jhuanxx44",
+      "url": "https://github.com/jhuanxx44/dsh-paste-path",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin: paste Finder file paths into the composer with Ctrl+V"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-paste-path@0.1.3",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-paste-path",
+      "version": "0.1.3"
     },
     {
       "name": "dsh-sseye",
@@ -23153,22 +23559,6 @@
       }
     },
     {
-      "name": "dsh-prompt-optimizer",
-      "owner": "kee0012",
-      "url": "https://github.com/kee0012/dsh-prompt-optimizer",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 提示词优化插件：在输入框底部（模型选择左侧）一键调用当前选中的大模型优化草稿。"
-      },
-      "stars": 0,
-      "added": "2026-09-13",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-13T13:20:04.040Z"
-      }
-    },
-    {
       "name": "dsh-plugin-fun",
       "owner": "keeshakulbida948-tech",
       "url": "https://github.com/keeshakulbida948-tech/dsh-plugin-fun",
@@ -24118,6 +24508,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-20T04:56:20.117Z"
+      }
+    },
+    {
+      "name": "@kiligzzz/dsh-session-archive",
+      "owner": "kiligzzz",
+      "url": "https://github.com/kiligzzz/dsh-session-archive",
+      "category": "github-discovery",
+      "description": {
+        "en": "A DeepSeek Harness Web-plugin that surfaces the registry-global archived-session set: list archived sessions in the sidebar and restore (unarchive) them."
+      },
+      "stars": 3,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -25347,22 +25753,6 @@
       "version": "1.0.1"
     },
     {
-      "name": "dsh-usage-estimator",
-      "owner": "lbwfff",
-      "url": "https://github.com/lbwfff/dsh-usage-estimator",
-      "category": "github-discovery",
-      "description": {
-        "en": "Sidebar usage monitor for opencode.go and commandcode credits — usage bars plus per-model estimated request counts from the official pricing docs"
-      },
-      "stars": 0,
-      "added": "2026-09-26",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-26T13:07:27.401Z"
-      }
-    },
-    {
       "name": "dsh-autoupdate",
       "owner": "lc23313",
       "url": "https://github.com/lc23313/dsh-autoupdate",
@@ -26521,6 +26911,22 @@
       "version": "0.1.13"
     },
     {
+      "name": "dsh-plugin-modality-fallback",
+      "owner": "lilei0311",
+      "url": "https://github.com/lilei0311/dsh-plugin-modality-fallback",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness (dsh) plugin: route one request to a modality-capable fallback model instead of forcing the whole session onto a single model."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-gray-test",
       "owner": "LiLiLi-Zi",
       "url": "https://github.com/LiLiLi-Zi/dsh-gray-test",
@@ -27458,6 +27864,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-12T22:19:41.704Z"
+      }
+    },
+    {
+      "name": "dsh-injection-guard",
+      "owner": "loeanxi",
+      "url": "https://github.com/loeanxi/dsh-injection-guard",
+      "category": "github-discovery",
+      "description": {
+        "en": "Source-aware prompt injection protection for DeepSeek Harness"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -28529,22 +28951,6 @@
       }
     },
     {
-      "name": "dsh-cetus",
-      "owner": "lunaship",
-      "url": "https://github.com/lunaship/dsh-links",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 手机插件：局域网配对 + 设备管理 + 18640 接入代理 + 手机 API（纯后端，无页面布局注入）"
-      },
-      "stars": 5,
-      "added": "2026-10-09",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-10-09T15:19:54.785Z"
-      }
-    },
-    {
       "name": "dsh-clash-proxy",
       "owner": "Lunatic029",
       "url": "https://github.com/Lunatic029/dsh-clash-proxy",
@@ -29010,6 +29416,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-13T18:48:40.122Z"
+      }
+    },
+    {
+      "name": "dsh-plugin-context-manager",
+      "owner": "luxiwusuobuneng",
+      "url": "https://github.com/luxiwusuobuneng/dsh-plugin-context-manager",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness context manager: auto-records every turn, injects priority-sorted memory and pinned cross-session notes into each model request, and folds real conversation history to save tokens. NOTE: manual multi-step install — copy the three package folders into profiles/node_modules and add the provided cordis.patch.yml rows, then restart DSH; not a standard one-command install."
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -30362,22 +30784,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-30T20:50:18.981Z"
-      }
-    },
-    {
-      "name": "dsh-office-cli",
-      "owner": "meliwanx",
-      "url": "https://github.com/meliwanx/dsh-office-cli",
-      "category": "github-discovery",
-      "description": {
-        "en": "A secure DeepSeek Harness plugin for the official WeCom, DingTalk, and Feishu/Lark office CLIs"
-      },
-      "stars": 1,
-      "added": "2026-10-09",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-10-09T06:11:43.949Z"
       }
     },
     {
@@ -31843,6 +32249,22 @@
       "version": "0.1.12"
     },
     {
+      "name": "dsh-oi-workbench",
+      "owner": "muyangplus",
+      "url": "https://github.com/muyangplus/dsh-oi-workbench",
+      "category": "github-discovery",
+      "description": {
+        "en": "OI 出题工作台：知识点锁定、数据构造、本地评测，打包 Hydro/HOJ 原生题目包，发布/管理 Hydro 与 HOJ OJ，提供 Python 外部管理 UI 与系统斜杠命令。Opt-in skill-first plugin for DeepSeek Harness."
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-element-inspector",
       "owner": "muyuanjin",
       "url": "https://github.com/muyuanjin/dsh-element-inspector",
@@ -32022,22 +32444,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-17T13:30:25.544Z"
-      }
-    },
-    {
-      "name": "dsh-session-cost",
-      "owner": "Nalleyer",
-      "url": "https://github.com/Nalleyer/dsh_session_cost",
-      "category": "github-discovery",
-      "description": {
-        "en": "Per-session token cost in the DSH web footer: a clickable chip appended to the right of the official stats row (official peak/off-peak pricing, weekday-aware, with model-name routing; RMB/USD by UI locale) that expands into a detail panel with unit prices, the next peak switch, and per-model usage."
-      },
-      "stars": 0,
-      "added": "2026-10-06",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-10-06T18:24:04.486Z"
       }
     },
     {
@@ -33877,6 +34283,38 @@
       }
     },
     {
+      "name": "@deepseek-ai/dsh-client-ui-session-archive",
+      "owner": "OpenSaozi",
+      "url": "https://github.com/OpenSaozi/dsh-session-archive",
+      "category": "github-discovery",
+      "description": {
+        "en": "Session archive management and restoration UI plugin for DeepSeek Harness"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-client-ui-session-pin",
+      "owner": "OpenSaozi",
+      "url": "https://github.com/OpenSaozi/dsh-session-pin",
+      "category": "github-discovery",
+      "description": {
+        "en": "Codex-style global pinned conversations UI plugin for DeepSeek Harness"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "@deepseek-ai/dsh-mcp-apps-host",
       "owner": "oriliz",
       "url": "https://github.com/oriliz/dsh-mcp-apps-host",
@@ -35167,166 +35605,6 @@
       }
     },
     {
-      "name": "dsh-context",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-context",
-      "category": "github-discovery",
-      "description": {
-        "en": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-infinite-gen-2",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-infinite-gen-2",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness 破甲插件「无限二代」：v5 稳定化破甲提示词（含拒绝对抗增强），客户端在对话框上方显示「破甲已开启」状态条。"
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-kun-pet",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-kun-pet",
-      "category": "github-discovery",
-      "description": {
-        "en": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：Web 界面右下角的小坤宠，随 Agent 工作状态切换 9 种动画，任务完成时播放「你干嘛~哎哟」语音"
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-model-meta-autofill",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-model-meta-autofill",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH plugin: auto-fill metadata (context length, output cap, display name, input modalities) for custom-provider models from the Model Metadata Registry (models.dev)."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-smart-search",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-smart-search",
-      "category": "github-discovery",
-      "description": {
-        "en": "DSH 常驻插件：注册单一搜索入口 smart_search，在代码里决定走 Exa 语义搜索还是 DuckDuckGo 关键词搜索，并对新建 agent 隐藏原始搜索工具"
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dsh-tavily-workspace",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-tavily-workspace",
-      "category": "github-discovery",
-      "description": {
-        "en": "Tavily for DeepSeek Harness: opt-in advanced Tavily model tools (search, extract, map, crawl), multi-key management, usage gauge, and the Tavily Search settings card. The built-in web_search is never replaced."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "@moguiyu/dsh-tavily",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-tavily-workspace/packages/dsh-tavily",
-      "category": "github-discovery",
-      "description": {
-        "en": "Opt-in advanced Tavily model tools for DeepSeek Harness with the Tavily Search settings card (rc.7/rc.8, 0.1.2 and 0.1.3 plugin management). The built-in web_search is never replaced."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "@moguiyu/dsh-tavily-backend",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-tavily-workspace/packages/dsh-tavily-backend",
-      "category": "github-discovery",
-      "description": {
-        "en": "Tavily settings backend for DeepSeek Harness: usage endpoint, flat key-list manager, and the opt-in advanced tavily_search tool switch."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "@moguiyu/dsh-tool-tavily-search",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dsh-tavily-workspace/packages/dsh-tool-tavily-search",
-      "category": "github-discovery",
-      "description": {
-        "en": "Opt-in advanced Tavily model tools for DeepSeek Harness (search, extract, map, crawl) with key rotation/failover. Install @moguiyu/dsh-tavily for the Tavily Search settings card. The built-in web_search is never replaced."
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
-      "name": "dshmarket",
-      "owner": "Practice019",
-      "url": "https://github.com/Practice019/dsh-plugins-store/tree/main/dshmarket",
-      "category": "github-discovery",
-      "description": {
-        "en": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。"
-      },
-      "stars": 0,
-      "added": "2026-09-12",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-12T16:09:19.043Z"
-      }
-    },
-    {
       "name": "dsh-circuit-breaker",
       "owner": "pricklywiggles",
       "url": "https://github.com/pricklywiggles/dsh-circuit-breaker",
@@ -35527,6 +35805,60 @@
       }
     },
     {
+      "name": "dsh-mcp-context7",
+      "owner": "PyModel",
+      "url": "https://github.com/PyModel/dsh-research-plugins/tree/main/packages/dsh-mcp-context7",
+      "category": "github-discovery",
+      "description": {
+        "en": "Context7 MCP for DeepSeek Harness: up-to-date library documentation and code examples"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-mcp-context7@0.2.2",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-mcp-context7",
+      "version": "0.2.2"
+    },
+    {
+      "name": "dsh-mcp-firecrawl",
+      "owner": "PyModel",
+      "url": "https://github.com/PyModel/dsh-research-plugins/tree/main/packages/dsh-mcp-firecrawl",
+      "category": "github-discovery",
+      "description": {
+        "en": "Firecrawl MCP for DeepSeek Harness: web crawling, scraping, search, and structured data extraction"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-mcp-firecrawl@0.2.2",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-mcp-firecrawl",
+      "version": "0.2.2"
+    },
+    {
+      "name": "@pymodel/dsh-tavily",
+      "owner": "PyModel",
+      "url": "https://github.com/PyModel/dsh-research-plugins/tree/main/packages/dsh-tavily",
+      "category": "github-discovery",
+      "description": {
+        "en": "Tavily web search + Tavily MCP for DSH: settings toggle to official DeepSeek, keyless search, MCP extract/crawl/map"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add @pymodel/dsh-tavily@0.3.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "@pymodel/dsh-tavily",
+      "version": "0.3.1"
+    },
+    {
       "name": "dsh-authmux",
       "owner": "Q-xuan",
       "url": "https://github.com/Q-xuan/dsh-authmux",
@@ -35694,6 +36026,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-19T12:31:18.838Z"
+      }
+    },
+    {
+      "name": "dsh-memory-bundle",
+      "owner": "QIANLING-0831",
+      "url": "https://github.com/QIANLING-0831/dsh-memory-plus/tree/main/packages/dsh-memory-bundle",
+      "category": "github-discovery",
+      "description": {
+        "en": "Meta-bundle: installs all dsh-memory plugins (CJK search, dedup, hybrid memory index, memory tool, compaction locator, core memory with a user-pinned no-model-write layer, skill manager + provenance-guarded self-evolution) into a DeepSeek Harness profile as one patch layer."
+      },
+      "stars": 11,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -36245,6 +36593,22 @@
       }
     },
     {
+      "name": "dsh-plugin-installer",
+      "owner": "Quophic",
+      "url": "https://github.com/Quophic/dsh-plugin-installer",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 插件安装/卸载/重启助手：LLM 可调用 install_plugin / uninstall_plugin / restart_dsh 三个工具。install_plugin 安装前自动备份并记录状态，安装后自动重启 dsh 并续接对话，安装失败/新插件导致启动失败/工具 schema 损坏时自动回滚并再次重启。uninstall_plugin 卸载前自动备份，卸载后自动重启并续接对话，卸载失败/卸载后启动失败/工具健康异常时自动回滚并重新安装该插件。restart_dsh 只重启不修改配置、隐藏控制台无闪窗、重启后恢复当前会话。"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-claim-gate",
       "owner": "QWE13-ART",
       "url": "https://github.com/QWE13-ART/dsh-claim-gate",
@@ -36723,6 +37087,22 @@
       },
       "tarball": "https://github.com/Raphaelutumn/dsh-mood/releases/download/v0.1.0/dsh-external-dsh-mood-0.1.0.tgz",
       "version": "0.1.0"
+    },
+    {
+      "name": "dsh-aseprite",
+      "owner": "Ratevoid",
+      "url": "https://github.com/Ratevoid/dsh-aseprite",
+      "category": "github-discovery",
+      "description": {
+        "en": "在 DSH Web UI 里作像素画/精灵动画的内嵌编辑器：画布+图层+帧动画+调色板+可视化蓝图工作流，用 JS 直接读写 Aseprite (.aseprite) 工程文件，不依赖安装 Aseprite。"
+      },
+      "stars": 7,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
     },
     {
       "name": "dsh-android-agent",
@@ -39783,38 +40163,6 @@
       }
     },
     {
-      "name": "dsh-ssh-workspace-companion",
-      "owner": "sincerity711",
-      "url": "https://github.com/sincerity711/dsh-remote-desktop/tree/main/packages/companion",
-      "category": "github-discovery",
-      "description": {
-        "en": "Remote companion for dsh-remote-desktop iframe control."
-      },
-      "stars": 0,
-      "added": "2026-10-10",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-10-10T05:55:27.274Z"
-      }
-    },
-    {
-      "name": "dsh-ssh-workspace",
-      "owner": "sincerity711",
-      "url": "https://github.com/sincerity711/dsh-remote-desktop/tree/main/packages/local",
-      "category": "github-discovery",
-      "description": {
-        "en": "Connect remote dsh web instances through SSH and browse them from the local dsh sidebar."
-      },
-      "stars": 0,
-      "added": "2026-10-10",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-10-10T05:55:27.274Z"
-      }
-    },
-    {
       "name": "dsh-balance-panel",
       "owner": "SingleMelon",
       "url": "https://github.com/SingleMelon/dsh-balance-panel/tree/main/package",
@@ -41979,6 +42327,22 @@
       }
     },
     {
+      "name": "@superls-x/dsh-minecraft-theme",
+      "owner": "SuperLS-X",
+      "url": "https://github.com/SuperLS-X/dsh-minecraft-theme",
+      "category": "github-discovery",
+      "description": {
+        "en": "Minecraft 主题插件（DeepSeek Harness）：方块纹理背景铺满页面、像素字体、MC 风格按钮与点击音效、纹理导入与管理、音乐播放器（16 首 Minecraft 原声 + 本地音乐文件夹）。"
+      },
+      "stars": 5,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-workbuddy-ppt",
       "owner": "SuperstructureJH",
       "url": "https://github.com/SuperstructureJH/dsh-workbuddy-ppt",
@@ -42821,22 +43185,6 @@
       "version": "0.3.2"
     },
     {
-      "name": "web-search-glm",
-      "owner": "Tazio7",
-      "url": "https://github.com/Tazio7/dsh-web-search-glm",
-      "category": "github-discovery",
-      "description": {
-        "en": "ZAI GLM web search and fetch MCP plugin for DeepSeek Harness"
-      },
-      "stars": 0,
-      "added": "2026-09-17",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-17T13:30:25.544Z"
-      }
-    },
-    {
       "name": "dsh-sdd-generator",
       "owner": "tblong2105",
       "url": "https://github.com/tblong2105/dsh-sdd-generator",
@@ -43629,24 +43977,6 @@
       "version": "0.1.8"
     },
     {
-      "name": "@tkliuxing/dsh-hypatia",
-      "owner": "tkliuxing",
-      "url": "https://github.com/tkliuxing/dsh-hypatia",
-      "category": "github-discovery",
-      "description": {
-        "en": "Long-term memory for DeepSeek Harness backed by Hypatia: a host-side CLI adapter, a plugin-owned SQLite control ledger, same-request recall, and narrow memory tools. Requires the `hypatia` CLI on PATH."
-      },
-      "stars": 0,
-      "added": "2026-10-04",
-      "install": "dsh plugin --profile web add @tkliuxing/dsh-hypatia@0.2.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-10-04T14:06:02.671Z"
-      },
-      "npm": "@tkliuxing/dsh-hypatia",
-      "version": "0.2.0"
-    },
-    {
       "name": "dsh-tool-github",
       "owner": "tkwkeven",
       "url": "https://github.com/tkwkeven/dsh-tool-github",
@@ -43933,6 +44263,78 @@
       }
     },
     {
+      "name": "dsh-client-ui-beauty",
+      "owner": "trees163",
+      "url": "https://github.com/trees163/dsh-customizations/tree/main/packages/dsh-client-ui-beauty",
+      "category": "github-discovery",
+      "description": {
+        "en": "Beauty layer for the DSH Web UI: whale-art backdrop + scrim veil + translucent periwinkle token remap (coverage logic ported from dsh-web-ui blue-fantasy skin). 9 skins, per-skin wallpaper and per-region transparency sliders. Every rule is gated on <html data-dsh-beauty>; the in-UI pill toggles it, so off == the stock UI exactly."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-client-ui-beauty@0.1.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-client-ui-beauty",
+      "version": "0.1.1"
+    },
+    {
+      "name": "dsh-client-ui-comfort",
+      "owner": "trees163",
+      "url": "https://github.com/trees163/dsh-customizations/tree/main/packages/dsh-client-ui-comfort",
+      "category": "github-discovery",
+      "description": {
+        "en": "Comfort layer for the DSH Web UI: gentler phase/composer transitions, fused composer+stats card, auto-collapsed tool cards. Every rule is gated on <html data-dsh-comfort>; the in-UI pill toggles that attribute, so off == the stock UI exactly."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-client-ui-comfort@0.1.1",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-client-ui-comfort",
+      "version": "0.1.1"
+    },
+    {
+      "name": "dsh-client-vscode-layout",
+      "owner": "trees163",
+      "url": "https://github.com/trees163/dsh-customizations/tree/main/packages/dsh-client-vscode-layout",
+      "category": "github-discovery",
+      "description": {
+        "en": "VS Code style layout for the DSH Web UI: left file/session split, center tabs + read-only viewer, right chat/detail tabs. Fork of @anoslide/dsh-client-vscode-layout with heavy second development (file tree, drag & drop, in-page previews, editor mode)."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-client-vscode-layout@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-client-vscode-layout",
+      "version": "0.1.0"
+    },
+    {
+      "name": "dsh-host-files",
+      "owner": "trees163",
+      "url": "https://github.com/trees163/dsh-customizations/tree/main/packages/dsh-host-files",
+      "category": "github-discovery",
+      "description": {
+        "en": "Host-side file API for the DSH Web UI: ~19 /vscode-files/* endpoints (list/read/write/search/highlight/docx preview/git status/persona/skills/mcp management). Fork of @anoslide/dsh-host-files with heavy second development."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-host-files@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-host-files",
+      "version": "0.1.0"
+    },
+    {
       "name": "dsh-reasoning-effort",
       "owner": "Triple3h",
       "url": "https://github.com/Triple3h/dsh-reasoning-effort",
@@ -44117,6 +44519,24 @@
       },
       "npm": "@tsqurt/dsh-plugin-studio",
       "version": "0.1.3-alpha"
+    },
+    {
+      "name": "@ttmouse/dsh-chat-history",
+      "owner": "ttmouse",
+      "url": "https://github.com/ttmouse/dsh-chat-history",
+      "category": "github-discovery",
+      "description": {
+        "en": "ChatGPT-style conversation-history rail for the DeepSeek Harness web GUI: a strip of bars at the transcript's right edge with a hover panel listing every user message, click-to-jump and scroll-synced highlighting."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add @ttmouse/dsh-chat-history@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "@ttmouse/dsh-chat-history",
+      "version": "0.1.0"
     },
     {
       "name": "dsh-global-proxy",
@@ -64023,6 +64443,22 @@
       "version": "0.11.0"
     },
     {
+      "name": "dsh-wx-desktop",
+      "owner": "wangxilhy23",
+      "url": "https://github.com/wangxilhy23/dsh-wx-desktop",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness 桌面端：基于官方 DeepSeek Harness（@deepseek-ai/dsh）开发的独立 Electron 应用（内嵌启动本机 dsh，复用已配置 profile 与全部插件），同时可作为 DSH 插件挂载，在 Web GUI 提供「打开桌面端」入口。"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-tool-session",
       "owner": "wangxing-git",
       "url": "https://github.com/wangxing-git/dsh-tool-session",
@@ -64207,22 +64643,6 @@
       },
       "npm": "@wannanbigpig/dsh-usage-stats",
       "version": "0.5.4"
-    },
-    {
-      "name": "dsh-plugin-browser-memory",
-      "owner": "wantosure",
-      "url": "https://github.com/wantosure/dsh-plugin-browser-memory",
-      "category": "github-discovery",
-      "description": {
-        "en": "Local-first DeepSeek Harness plugin for searching Chrome, Edge, and Brave bookmarks, history, and downloads without uploading browser data."
-      },
-      "stars": 0,
-      "added": "2026-09-22",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-22T13:26:22.743Z"
-      }
     },
     {
       "name": "@wanyexin1998/dsh-workbench",
@@ -64715,6 +65135,22 @@
       }
     },
     {
+      "name": "dsh-opencodego-quota",
+      "owner": "wellcover",
+      "url": "https://github.com/wellcover/dsh-opencodego-quota",
+      "category": "github-discovery",
+      "description": {
+        "en": "OpenCode Go (opencode.ai/zen/go) 额度用量插件：在 DSH Web GUI 左侧栏常驻一张额度卡片，展示日(近5小时)/周/月三个窗口的用量进度条、换算金额、重置时间与刷新时间；自动刷新间隔可在标题栏 ⚙ 设置弹层中自由输入（秒），卡片底部只显示当前秒数。Host 半在宿主进程查询官方 /zen/go/v1/usage 接口，Client 半是一个自包含的左侧栏 DOM 卡片（无 React、无构建步骤）。"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "@mutocenew/dsh-plugin-catalog",
       "owner": "wemio",
       "url": "https://github.com/wemio/dsh-plugin-catalog",
@@ -65129,6 +65565,24 @@
       },
       "npm": "@yichenwilian/dsh-deepseek-web",
       "version": "0.1.0"
+    },
+    {
+      "name": "multiple-chat-panels",
+      "owner": "WilliamShi666",
+      "url": "https://github.com/WilliamShi666/dsh-multiple-chat-panels",
+      "category": "github-discovery",
+      "description": {
+        "en": "Multiple chat panels for DeepSeek Harness: view and interact with several agent sessions side by side in a Mission Control grid"
+      },
+      "stars": 13,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add multiple-chat-panels@0.1.2",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "multiple-chat-panels",
+      "version": "0.1.2"
     },
     {
       "name": "dsh-skill-station",
@@ -69237,6 +69691,22 @@
       "version": "0.6.1"
     },
     {
+      "name": "dsh-search-router",
+      "owner": "XGrin",
+      "url": "https://github.com/XGrin/dsh-search-router",
+      "category": "github-discovery",
+      "description": {
+        "en": "Route DSH's native web_search tool to user-configurable search providers with sequential fallback. The plugin is a router, not a search engine."
+      },
+      "stars": 3,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-update-notifier",
       "owner": "xia-sc",
       "url": "https://github.com/xia-sc/dsh-update-notifier",
@@ -69737,6 +70207,40 @@
       }
     },
     {
+      "name": "dsh-chime",
+      "owner": "xiaxingtianxia2-glitch",
+      "url": "https://github.com/xiaxingtianxia2-glitch/dsh-chime",
+      "category": "github-discovery",
+      "description": {
+        "en": "opencode 任务完成提示音：一轮完成/提问/出错时播放原始 mp3 音效，零外部依赖"
+      },
+      "stars": 3,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-chime@0.1.3",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-chime",
+      "version": "0.1.3"
+    },
+    {
+      "name": "dsh-pace-popups",
+      "owner": "xiayuhkust",
+      "url": "https://github.com/xiayuhkust/knowledge-territory/tree/main/packages/suite",
+      "category": "github-discovery",
+      "description": {
+        "en": "One-install bundle for 知识疆域 (Knowledge Territory): mounts the atlas map, its feeders (crosslens card draw, jiyibi notes), the floating bar, the shared skin, and the optional grasp-probe nudge together. Add this one package to get them all; switch any off in the bar. A dsh bundle (dsh.bundle.patch → cordis.patch.yml)."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-subagent",
       "owner": "xie-tj",
       "url": "https://github.com/xie-tj/dsh-subagent",
@@ -69750,6 +70254,54 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-24T13:34:50.116Z"
+      }
+    },
+    {
+      "name": "dsh-bridge-preview",
+      "owner": "xing666173",
+      "url": "https://github.com/xing666173/dsh-vision-hub/tree/main/bridge-preview",
+      "category": "github-discovery",
+      "description": {
+        "en": "为 dsh-tool-vision 桥接导出的图片提供对话内联预览:用户粘贴的图片在气泡中显示缩略图,不改变桥接文本与模型行为"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
+      "name": "dsh-file-drop",
+      "owner": "xing666173",
+      "url": "https://github.com/xing666173/dsh-vision-hub/tree/main/file-drop",
+      "category": "github-discovery",
+      "description": {
+        "en": "拖拽非图片文件：桌面壳直取原始路径 / 拖拽自带路径直取 / 普通文件上传到工作区换取路径"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
+      "name": "dsh-tool-vision",
+      "owner": "xing666173",
+      "url": "https://github.com/xing666173/dsh-vision-hub/tree/main/tool-vision",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness 外置视觉模型插件：inspect_image 与 14 个像素级视觉工具（看图问答/定位/检测/裁剪/像素对比/OCR/矢量化/取色/抠图/截图）全部走同一 OpenAI 兼容端点（baseURL/apiKey/model），视觉模型看图的文字回答直接带回对话；附 Web UI 设置栏。"
+      },
+      "stars": 4,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
       }
     },
     {
@@ -69849,6 +70401,24 @@
         "status": "source-only",
         "checkedAt": "2026-10-04T14:06:02.671Z"
       }
+    },
+    {
+      "name": "dsh-github-reviewer",
+      "owner": "Xinlong-Wu",
+      "url": "https://github.com/Xinlong-Wu/dsh-github-reviewer",
+      "category": "github-discovery",
+      "description": {
+        "en": "DeepSeek Harness plugin: automated GitHub PR review bot ported from LingoBridge"
+      },
+      "stars": 1,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-github-reviewer@0.1.2",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-github-reviewer",
+      "version": "0.1.2"
     },
     {
       "name": "dsh-font-colors",
@@ -70383,6 +70953,22 @@
       }
     },
     {
+      "name": "dsh-code-workbench",
+      "owner": "xusuyang030218",
+      "url": "https://github.com/xusuyang030218/dsh-code-workbench",
+      "category": "github-discovery",
+      "description": {
+        "en": "DSH 代码工作台插件：输入栏「💻 代码」按钮 → 上传/粘贴/文件夹导入代码 → AI 修改/优化/审查（支持面板内直连 DeepSeek 等可选 API）→ 下载 + diff 双模式 + 版本历史 + 评测报告。TypeScript 源码，零运行时依赖。"
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-preview-ui",
       "owner": "xusuyang030218",
       "url": "https://github.com/xusuyang030218/dsh-preview-ui",
@@ -70651,6 +71237,24 @@
       },
       "npm": "@y1x1n/dsh-prompt-optimizer",
       "version": "0.3.16"
+    },
+    {
+      "name": "@y2zyyr/dsh-restart-control",
+      "owner": "y2zyyr",
+      "url": "https://github.com/y2zyyr/dsh-restart-control",
+      "category": "github-discovery",
+      "description": {
+        "en": "Adds a Restart DSH button to DSH Desktop Settings → General (通用设置)."
+      },
+      "stars": 0,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add @y2zyyr/dsh-restart-control@0.1.7",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "@y2zyyr/dsh-restart-control",
+      "version": "0.1.7"
     },
     {
       "name": "dsh-voice-plugin",
@@ -71346,22 +71950,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-06T18:24:04.486Z"
-      }
-    },
-    {
-      "name": "dsh-github-installer",
-      "owner": "yhPrime",
-      "url": "https://github.com/yhPrime/dsh-github-installer",
-      "category": "github-discovery",
-      "description": {
-        "en": "GitHub 仓库 / npm / Git 仓库一键安装卸载更新插件（dsh-std 标准组件）。Manage DeepSeek Harness plugins from a GitHub repo URL, npm name, or any git repo — install / uninstall / update."
-      },
-      "stars": 0,
-      "added": "2026-09-19",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-19T12:31:18.838Z"
       }
     },
     {
@@ -72981,6 +73569,60 @@
         "status": "source-only",
         "checkedAt": "2026-10-10T05:55:27.274Z"
       }
+    },
+    {
+      "name": "dsh-aside",
+      "owner": "ywzhang1031",
+      "url": "https://github.com/ywzhang1031/dsh-aside/tree/main/packages/aside",
+      "category": "github-discovery",
+      "description": {
+        "en": "Persistent read-only side conversations anchored to exact prose in DeepSeek Harness"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-aside@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-aside",
+      "version": "0.1.0"
+    },
+    {
+      "name": "dsh-aside-host",
+      "owner": "ywzhang1031",
+      "url": "https://github.com/ywzhang1031/dsh-aside/tree/main/packages/aside-host",
+      "category": "github-discovery",
+      "description": {
+        "en": "Host gateway creating read-only Q&A side conversations (aside) under a parent session — a pure plugin for stock DeepSeek Harness"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-aside-host@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-aside-host",
+      "version": "0.1.0"
+    },
+    {
+      "name": "dsh-client-ui-aside",
+      "owner": "ywzhang1031",
+      "url": "https://github.com/ywzhang1031/dsh-aside/tree/main/packages/client-ui-aside",
+      "category": "github-discovery",
+      "description": {
+        "en": "Read-only side conversations for stock DeepSeek Harness: prose selection, floating ask button, per-message aside action, sidebar rail, and the frame drawer"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "dsh plugin --profile web add dsh-client-ui-aside@0.1.0",
+      "discovery": {
+        "status": "published",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      },
+      "npm": "dsh-client-ui-aside",
+      "version": "0.1.0"
     },
     {
       "name": "@yinhe/dsh-message-navigator",
@@ -74941,6 +75583,22 @@
       "version": "0.3.4"
     },
     {
+      "name": "dsh-memory-graph",
+      "owner": "zmh2000829",
+      "url": "https://github.com/zmh2000829/dsh-memory-graph",
+      "category": "github-discovery",
+      "description": {
+        "en": "Non-invasive SQLite hybrid memory and knowledge-graph plugin for DeepSeek Harness"
+      },
+      "stars": 2,
+      "added": "2026-10-10",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-10T20:05:15.145Z"
+      }
+    },
+    {
       "name": "dsh-web-search-multi",
       "owner": "zmh2000829",
       "url": "https://github.com/zmh2000829/dsh-web-search-multi",
@@ -75074,24 +75732,6 @@
         "checkedAt": "2026-09-27T19:47:12.424Z"
       },
       "tarball": "https://github.com/zootguru/dsh-vpn-ops/releases/download/v0.1.0/dsh-vpn-ops-0.1.0.tgz",
-      "version": "0.1.0"
-    },
-    {
-      "name": "dsh-attachment-downscale",
-      "owner": "zoumutou",
-      "url": "https://github.com/zoumutou/dsh-attachment-downscale",
-      "category": "github-discovery",
-      "description": {
-        "en": "附件自动降级：DSH 图片准入（单边 ≤2000px / ≤3.5MB / ≤4000万像素）超限图片不再拒绝，用 sharp 自动缩小/重编码后入库，用户上传手机原图不再踩线。"
-      },
-      "stars": 0,
-      "added": "2026-09-28",
-      "install": "dsh plugin --profile web add dsh-attachment-downscale@0.1.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-28T16:46:33.133Z"
-      },
-      "npm": "dsh-attachment-downscale",
       "version": "0.1.0"
     },
     {
@@ -75550,8 +76190,8 @@
   "discovery": {
     "version": 1,
     "topic": "dsh-plugin",
-    "total": 18046,
-    "checked": 4827,
+    "total": 17948,
+    "checked": 4869,
     "complete": false
   }
 }
