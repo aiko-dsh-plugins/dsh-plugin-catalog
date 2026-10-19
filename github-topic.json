@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19T04:43:53.287Z",
-  "count": 5976,
+  "updated": "2026-10-19T15:39:01.048Z",
+  "count": 6030,
   "categories": {
     "github-discovery": {
       "en": "GitHub community",
@@ -3900,22 +3900,6 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-15T04:42:28.128Z"
-      }
-    },
-    {
-      "name": "dsh-bcc",
-      "owner": "aixlb",
-      "url": "https://github.com/aixlb/dsh-bcc",
-      "category": "github-discovery",
-      "description": {
-        "en": "包拆拆 for DeepSeek Harness: video → script / storyboard / style guide. Uses the session model (recommend deepseek-v4-flash-vision-exp); never ships its own API keys."
-      },
-      "stars": 0,
-      "added": "2026-09-28",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-28T16:46:33.133Z"
       }
     },
     {
@@ -11183,24 +11167,6 @@
       },
       "tarball": "https://github.com/chenjie1129/deepseek-harness-reliability-governor/releases/download/v0.6.0/chenjie1129-dsh-reliability-governor-plugin-0.6.0.tgz",
       "version": "0.6.0"
-    },
-    {
-      "name": "@chenjie1129/dsh-remotion-video-plugin",
-      "owner": "chenjie1129",
-      "url": "https://github.com/chenjie1129/remotion-video-plugin",
-      "category": "github-discovery",
-      "description": {
-        "en": "Remotion video creation and verified rendering plugin for DeepSeek Harness"
-      },
-      "stars": 1,
-      "added": "2026-09-29",
-      "install": "dsh plugin --profile web add @chenjie1129/dsh-remotion-video-plugin@0.4.0",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-29T00:23:26.157Z"
-      },
-      "npm": "@chenjie1129/dsh-remotion-video-plugin",
-      "version": "0.4.0"
     },
     {
       "name": "dsh-runbook-ops",
@@ -18943,24 +18909,6 @@
       },
       "npm": "dsh-workspace-prompts",
       "version": "0.1.3"
-    },
-    {
-      "name": "dsh-plugin-readproof",
-      "owner": "fbzz",
-      "url": "https://github.com/fbzz/readproof/tree/main/integrations/deepseek-harness/dsh-plugin-readproof",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness plugin for Readproof: stable readproof:// identity, freshness policy, snapshots, per-run manifests, diff, byte-exact replay, and evidence bundles as model-callable tools."
-      },
-      "stars": 0,
-      "added": "2026-09-29",
-      "install": "dsh plugin --profile web add dsh-plugin-readproof@0.3.2",
-      "discovery": {
-        "status": "published",
-        "checkedAt": "2026-09-29T10:42:42.995Z"
-      },
-      "npm": "dsh-plugin-readproof",
-      "version": "0.3.2"
     },
     {
       "name": "dsh-chinese-skill-patch",
@@ -49603,38 +49551,6 @@
       "version": "0.1.0"
     },
     {
-      "name": "dsh-reasoning-level",
-      "owner": "peterwangze",
-      "url": "https://github.com/peterwangze/dsh-reasoning-level",
-      "category": "github-discovery",
-      "description": {
-        "en": "DeepSeek Harness 统一推理等级插件：一个 llm-reasoning 设置项动态配置 DSH 所有模型的默认推理等级（思考等级）——自动为手写声明的模型补齐推理能力、按路由设置默认等级（仅当全部模型支持）、同步 DeepSeek 官方路由，改设置即生效。"
-      },
-      "stars": 1,
-      "added": "2026-09-26",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-26T19:13:48.323Z"
-      }
-    },
-    {
-      "name": "dsh-bayes-predict",
-      "owner": "pg527322814",
-      "url": "https://github.com/pg527322814/dsh-bayes-predict",
-      "category": "github-discovery",
-      "description": {
-        "en": "贝叶斯个股预测插件：多指标信号融合的上涨概率估计、趋势状态识别与持仓风险度量（A 股 + 美股）"
-      },
-      "stars": 3,
-      "added": "2026-09-29",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-29T10:42:42.995Z"
-      }
-    },
-    {
       "name": "better-dsh",
       "owner": "pgmi-builds",
       "url": "https://github.com/pgmi-builds/better-dsh/tree/main/better-dsh",
@@ -61905,22 +61821,6 @@
       }
     },
     {
-      "name": "dsh-request-manager",
-      "owner": "tree-func",
-      "url": "https://github.com/tree-func/dsh-request-manager",
-      "category": "github-discovery",
-      "description": {
-        "en": "请求管理插件（bundle）：按全局配置管理 Agent→LLM 请求——「请求额外间隔」（每个请求发送前固定多等 N 毫秒，0=不介入）、重试次数覆盖（留空=沿用 provider 默认）、拦截「请求失败」（终态失败后挂起等待人工决议：重试原地重发同一请求 / 放弃按原生路径终结）。入口为会话头部 utilities 槽位的「请求管理」按钮；设置跨会话全局生效，按值决定是否介入；界面跟随 dsh 语言中英切换。"
-      },
-      "stars": 0,
-      "added": "2026-09-29",
-      "install": "",
-      "discovery": {
-        "status": "source-only",
-        "checkedAt": "2026-09-29T10:42:42.995Z"
-      }
-    },
-    {
       "name": "dsh-client-ui-beauty",
       "owner": "trees163",
       "url": "https://github.com/trees163/dsh-customizations/tree/main/packages/dsh-client-ui-beauty",
@@ -69825,6 +69725,22 @@
       }
     },
     {
+      "name": "dsh-file-rename",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-file-rename",
+      "category": "github-discovery",
+      "description": {
+        "en": "批量重命名：按查找/替换、前缀/后缀、大小写规则批量重命名文件，支持 dry-run 预览"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-finger-train",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-finger-train",
@@ -70865,6 +70781,22 @@
       }
     },
     {
+      "name": "dsh-gestalt",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-gestalt",
+      "category": "github-discovery",
+      "description": {
+        "en": "格式塔视觉感知原则参考"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-ghana",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-ghana",
@@ -71182,6 +71114,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-30T05:35:06.717Z"
+      }
+    },
+    {
+      "name": "dsh-grid-system",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-grid-system",
+      "category": "github-discovery",
+      "description": {
+        "en": "栅格与间距系统参考"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -71793,6 +71741,22 @@
       }
     },
     {
+      "name": "dsh-headers",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-headers",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTTP 请求头解析"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-heart-rate",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-heart-rate",
@@ -71969,6 +71933,22 @@
       }
     },
     {
+      "name": "dsh-hex",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hex",
+      "category": "github-discovery",
+      "description": {
+        "en": "Hex 编解码"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-hidden-storage",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-hidden-storage",
@@ -72110,6 +72090,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-30T05:35:06.717Z"
+      }
+    },
+    {
+      "name": "dsh-hmac",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hmac",
+      "category": "github-discovery",
+      "description": {
+        "en": "HMAC 消息认证码"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -72321,6 +72317,38 @@
       }
     },
     {
+      "name": "dsh-html-escape",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-html-escape",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTML 实体编解码：转义/反转义 HTML 特殊字符与常用实体"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-html-parse",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-html-parse",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTML 解析：从 HTML 提取标题/meta/标题层级/链接/表格/纯文本等结构化数据"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-html-to-markdown",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-html-to-markdown",
@@ -72334,6 +72362,54 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-09T06:11:43.949Z"
+      }
+    },
+    {
+      "name": "dsh-html-to-text",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-html-to-text",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTML 转纯文本"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-http-status",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-http-status",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTTP 状态码速查"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-http",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-http-uckkk",
+      "category": "github-discovery",
+      "description": {
+        "en": "HTTP 请求工具：发起请求返回状态码/响应头/响应体/耗时（Node fetch）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -72481,6 +72557,22 @@
       }
     },
     {
+      "name": "dsh-image",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-image",
+      "category": "github-discovery",
+      "description": {
+        "en": "图片处理：读取图片尺寸/格式、缩放与格式转换（内置 ffmpeg，跨平台）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-image-uckkk",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-image-uckkk",
@@ -72622,6 +72714,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T23:44:41.844Z"
+      }
+    },
+    {
+      "name": "dsh-ini",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ini",
+      "category": "github-discovery",
+      "description": {
+        "en": "INI ↔ JSON 转换"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -72785,6 +72893,22 @@
       }
     },
     {
+      "name": "dsh-interaction-design",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-interaction-design",
+      "category": "github-discovery",
+      "description": {
+        "en": "交互设计理论参考"
+      },
+      "stars": 1,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-interior-clean",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-interior-clean",
@@ -72862,6 +72986,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-ip",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ip",
+      "category": "github-discovery",
+      "description": {
+        "en": "IP 工具：校验/分类 IP 地址，计算 IPv4 CIDR 网段范围"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -73217,6 +73357,102 @@
       }
     },
     {
+      "name": "dsh-json-csv",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-csv",
+      "category": "github-discovery",
+      "description": {
+        "en": "CSV ↔ JSON 转换：JSON 对象数组转 CSV，CSV 解析为 JSON"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-diff",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-diff",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 语义对比：深比较两个 JSON，返回新增/删除/变更的键路径"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-escape",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-escape",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 转义"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-flatten",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-flatten",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 扁平化：嵌套 JSON ↔ 点号扁平键互转（支持数组索引）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-merge",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-merge",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 深合并"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-patch",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-patch",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON Patch（RFC 6902）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-json-pointer",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-json-pointer",
@@ -73230,6 +73466,150 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-08T15:38:57.181Z"
+      }
+    },
+    {
+      "name": "dsh-json-query",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-query",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 路径查询/设置"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-schema",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-schema",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON Schema 校验"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-size",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-size",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 统计"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-to-go",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-to-go",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 转 Go：把 JSON 数据转换为带 json tag 的 Go 结构体"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-to-rust",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-to-rust",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 转 Rust：把 JSON 数据转换为 serde Rust 结构体"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-to-sql",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-to-sql",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 转 SQL"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-to-table",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-to-table",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 转 ASCII 表格"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-tools",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-tools",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 规范化：递归排序键、美化/压缩 JSON"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-json-validate",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-json-validate",
+      "category": "github-discovery",
+      "description": {
+        "en": "JSON 校验与修复：定位语法错误行列，自动修复注释/尾逗号/单引号"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -73310,6 +73690,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-30T05:35:06.717Z"
+      }
+    },
+    {
+      "name": "dsh-jwt",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-jwt",
+      "category": "github-discovery",
+      "description": {
+        "en": "JWT 解码：解析 header/payload，判断过期（不验签）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -74321,6 +74717,22 @@
       }
     },
     {
+      "name": "dsh-log-analyzer",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-log-analyzer",
+      "category": "github-discovery",
+      "description": {
+        "en": "日志分析：解析日志文件，提取错误/异常/告警，按签名聚合统计并返回结构化错误清单与上下文"
+      },
+      "stars": 1,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-log-any",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-log-any",
@@ -74366,6 +74778,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T10:42:42.995Z"
+      }
+    },
+    {
+      "name": "dsh-lorem",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-lorem",
+      "category": "github-discovery",
+      "description": {
+        "en": "占位文本生成"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -74497,6 +74925,38 @@
       }
     },
     {
+      "name": "dsh-markdown-lint",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-markdown-lint",
+      "category": "github-discovery",
+      "description": {
+        "en": "Markdown 检查"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-markdown-table",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-markdown-table",
+      "category": "github-discovery",
+      "description": {
+        "en": "Markdown 表格生成：把 JSON 数组/二维数组转换为 Markdown 表格"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-markdown-to-html",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-markdown-to-html",
@@ -74510,6 +74970,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-09T06:11:43.949Z"
+      }
+    },
+    {
+      "name": "dsh-markdown-toc",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-markdown-toc",
+      "category": "github-discovery",
+      "description": {
+        "en": "Markdown 目录生成"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -74769,6 +75245,22 @@
       }
     },
     {
+      "name": "dsh-mime",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-mime",
+      "category": "github-discovery",
+      "description": {
+        "en": "MIME 类型查询"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-min",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-min",
@@ -74990,6 +75482,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-07T21:19:57.515Z"
+      }
+    },
+    {
+      "name": "dsh-motion-design",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-motion-design",
+      "category": "github-discovery",
+      "description": {
+        "en": "动效设计原则参考"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -75489,6 +75997,38 @@
       }
     },
     {
+      "name": "dsh-number-format",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-number-format",
+      "category": "github-discovery",
+      "description": {
+        "en": "数字格式化：千分位、小数位、货币符号、百分比"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-number-words",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-number-words",
+      "category": "github-discovery",
+      "description": {
+        "en": "数字转大写"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-nvc",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-nvc",
@@ -75710,6 +76250,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-02T05:40:21.663Z"
+      }
+    },
+    {
+      "name": "dsh-otp",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-otp",
+      "category": "github-discovery",
+      "description": {
+        "en": "一次性密码 TOTP/HOTP"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -76051,6 +76607,22 @@
       }
     },
     {
+      "name": "dsh-password",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-password-uckkk",
+      "category": "github-discovery",
+      "description": {
+        "en": "密码工具：生成强随机密码、检测密码强度与信息熵"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-payback",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-payback",
@@ -76096,6 +76668,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-08T21:21:33.258Z"
+      }
+    },
+    {
+      "name": "dsh-percentage",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-percentage",
+      "category": "github-discovery",
+      "description": {
+        "en": "百分比计算"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -76499,6 +77087,22 @@
       }
     },
     {
+      "name": "dsh-phone",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-phone",
+      "category": "github-discovery",
+      "description": {
+        "en": "手机号工具"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-phone-cleanup",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-phone-cleanup",
@@ -76560,6 +77164,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-09-29T18:06:38.353Z"
+      }
+    },
+    {
+      "name": "dsh-photography",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-photography",
+      "category": "github-discovery",
+      "description": {
+        "en": "摄影基础参考"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -77587,6 +78207,22 @@
       }
     },
     {
+      "name": "dsh-query-string",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-query-string",
+      "category": "github-discovery",
+      "description": {
+        "en": "查询字符串 ↔ 对象"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-question-asking",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-question-asking",
@@ -77667,6 +78303,22 @@
       }
     },
     {
+      "name": "dsh-random",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-random",
+      "category": "github-discovery",
+      "description": {
+        "en": "随机工具：安全随机整数/字符串、数组抽样与洗牌（crypto）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-range",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-range",
@@ -77715,6 +78367,22 @@
       }
     },
     {
+      "name": "dsh-readme",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-readme",
+      "category": "github-discovery",
+      "description": {
+        "en": "README 生成：扫描项目（package.json、目录结构、技术栈、脚本、许可证），自动生成结构化 README.md"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-rectangle",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-rectangle",
@@ -77760,6 +78428,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-03T23:06:15.394Z"
+      }
+    },
+    {
+      "name": "dsh-regex",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-regex",
+      "category": "github-discovery",
+      "description": {
+        "en": "正则工具：测试匹配（位置/分组）、安全替换、特殊字符转义"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -77856,6 +78540,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-09T06:11:43.949Z"
+      }
+    },
+    {
+      "name": "dsh-repo-health",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-repo-health",
+      "category": "github-discovery",
+      "description": {
+        "en": "项目体检：检查仓库的 README/LICENSE/.gitignore/测试/CI/锁文件/脚本等最佳实践，返回体检报告卡与修复建议"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -78099,6 +78799,22 @@
       }
     },
     {
+      "name": "dsh-roman",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-roman",
+      "category": "github-discovery",
+      "description": {
+        "en": "罗马数字转换"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-room-light",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-room-light",
@@ -78339,6 +79055,22 @@
       }
     },
     {
+      "name": "dsh-scaffold",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-scaffold",
+      "category": "github-discovery",
+      "description": {
+        "en": "项目脚手架：生成 LICENSE / .gitignore / .editorconfig 等常见项目文件"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-scalp-issue",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-scalp-issue",
@@ -78560,6 +79292,22 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-05T17:10:07.466Z"
+      }
+    },
+    {
+      "name": "dsh-semver",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-semver",
+      "category": "github-discovery",
+      "description": {
+        "en": "语义化版本比较：比较两个版本号大小，判断版本是否满足范围（^~>=<=）"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -79283,6 +80031,22 @@
       }
     },
     {
+      "name": "dsh-sql-format",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-sql-format",
+      "category": "github-discovery",
+      "description": {
+        "en": "SQL 格式化：子句换行、关键字大写"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-stage-presence",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-stage-presence",
@@ -79459,6 +80223,22 @@
       }
     },
     {
+      "name": "dsh-storyboard",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-storyboard",
+      "category": "github-discovery",
+      "description": {
+        "en": "分镜脚本模板与术语"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
       "name": "dsh-stress-meter",
       "owner": "uckkk",
       "url": "https://github.com/uckkk/dsh-stress-meter",
@@ -79488,6 +80268,38 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-03T13:24:40.046Z"
+      }
+    },
+    {
+      "name": "dsh-string-pad",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-string-pad",
+      "category": "github-discovery",
+      "description": {
+        "en": "字符串填充"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-string-similarity",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-string-similarity",
+      "category": "github-discovery",
+      "description": {
+        "en": "字符串相似度"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -79904,6 +80716,54 @@
       "discovery": {
         "status": "source-only",
         "checkedAt": "2026-10-03T13:24:40.046Z"
+      }
+    },
+    {
+      "name": "dsh-text-diff",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-text-diff",
+      "category": "github-discovery",
+      "description": {
+        "en": "行级文本 diff"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-text-lines",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-text-lines",
+      "category": "github-discovery",
+      "description": {
+        "en": "文本行去重/排序/统计"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
+      }
+    },
+    {
+      "name": "dsh-text-mask",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-text-mask",
+      "category": "github-discovery",
+      "description": {
+        "en": "文本脱敏：把文本中的邮箱/手机号/身份证/银行卡/IP/密钥等敏感信息替换为掩码，分享前保护隐私"
+      },
+      "stars": 0,
+      "added": "2026-10-19",
+      "install": "",
+      "discovery": {
+        "status": "source-only",
+        "checkedAt": "2026-10-19T15:38:27.098Z"
       }
     },
     {
@@ -99094,8 +99954,8 @@
   "discovery": {
     "version": 1,
     "topic": "dsh-plugin",
-    "total": 20359,
-    "checked": 6363,
+    "total": 20370,
+    "checked": 6417,
     "complete": false
   }
 }
